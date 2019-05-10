@@ -1,5 +1,5 @@
 # LoSfizio  
-![Le logo de LoSfizio](IMG-20190329-WA0001~2.jpg "Un bien beau logo !")
+![Le logo de LoSfizio](assets/images/logo-losfizio.png)
 ## LoSfizio : site "vitrine" réalisé bénévolement à l'occasion de l'ouverture d'un restaurant Italien.  
 Projet réalisé dans le cadre de la formation de Développeurs Web à Simplon par :  
 * Elias : lien github : https://github.com/yatoogamii  
