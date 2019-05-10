@@ -1,6 +1,6 @@
 # LoSfizio  
 ![Le logo de LoSfizio](IMG-20190329-WA0001~2.jpg "Un bien beau logo !")
-## LoSfizio : site "vitrine" réalisé pour un client à l'occasion de l'ouverture de sa pizzeria.  
+## LoSfizio : site "vitrine" réalisé bénévolement à l'occasion de l'ouverture d'un restaurant Italien.  
 Projet réalisé dans le cadre de la formation de Développeurs Web à Simplon par :  
 * Elias : lien github : https://github.com/yatoogamii  
 * Tuyen : lien github : https://github.com/tuyengabi  
@@ -15,4 +15,4 @@ Projet réalisé dans le cadre de la formation de Développeurs Web à Simplon p
 * JavaScript
 * Sass
 * Framework css
-** Convention : BEM
+  * Convention : BEM
