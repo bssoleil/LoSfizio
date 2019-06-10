@@ -1,0 +1,24 @@
+.nav {
+
+  height: 7rem;
+  line-height: 7rem;
+
+  .nav__ul {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .nav__ul__li {
+      text-align: center;
+      width: 100%;
+      height: 7rem;
+    }
+
+    a {
+      font-size: 2rem;
+      color: #1d1d1d;
+    }
+  }
+}
