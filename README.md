@@ -20,7 +20,8 @@
 ## Techno utilisées  
 
 * HTML/CSS
+  * Convention : BEM
 * JavaScript
 * Sass
 * Framework css
-  * Convention : BEM
+  * Materialize
