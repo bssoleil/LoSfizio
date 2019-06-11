@@ -1,7 +1,11 @@
 .nav {
 
+  position: fixed;
+  top: 0;
+  background-color: #fff;
   height: 7rem;
   line-height: 7rem;
+  z-index: 1;
 
   .nav__ul {
     width: 100%;
@@ -18,7 +22,7 @@
 
     a {
       font-size: 2rem;
-      color: #1d1d1d;
+      color: $red;
     }
   }
 }

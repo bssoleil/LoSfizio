@@ -4,6 +4,12 @@
 
 @import 'vendors/materialize.scss';
 
+////////////////
+//  abtracts  //
+////////////////
+
+@import 'abstracts/_variables.scss';
+
 ////////////
 //  base  //
 ////////////
@@ -17,3 +23,5 @@
 //////////////
 
 @import 'layout/_nav.scss';
+@import 'layout/_gallery.scss';
+@import 'layout/_header.scss';
