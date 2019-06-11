@@ -6,8 +6,9 @@
   height: 40rem;
 
   h1 {
+    font-size: 5.5rem;
     width: 20%;
     padding-bottom: 0.5rem;
-    border-bottom: solid 0.1rem $green;
+    border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
   }
 }
