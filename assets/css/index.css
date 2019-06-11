@@ -6464,7 +6464,9 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Italianno', sans-serif;
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2); }
 
 a {
   text-align: center; }
@@ -6521,9 +6523,7 @@ img {
   height: 40rem; }
   .header h1 {
     font-size: 5.5rem;
-    width: 20%;
-    padding-bottom: 0.5rem;
-    border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2); }
+    width: 20%; }
 
 .header__banner {
   background-image: url("../images/IMG_5203.JPG");
@@ -6533,5 +6533,24 @@ img {
 
 body {
   background-color: #bfbfbf; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem; }
+  .footer .footer__address {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+    .footer .footer__address p {
+      font-size: 1.5rem; }
+    .footer .footer__address .footer__address-social {
+      font-size: 1.5rem; }
+  .footer div {
+    width: 50%;
+    height: 70%; }
 
 /*# sourceMappingURL=index.css.map */
