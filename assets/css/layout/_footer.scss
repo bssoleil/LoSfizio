@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+
+  .footer__address {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    .footer__address-social {
+      font-size: 1.5rem;
+    }
+  }
+
+
+  .container-map {
+
+  }
+
+  div {
+    width: 50%;
+    height: 70%;
+  }
+}
+
