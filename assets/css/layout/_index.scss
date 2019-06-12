@@ -1,0 +1,36 @@
+.container-index {
+  
+  .schedule__section {
+    width: 100vw;
+
+    .schedule__title {
+
+    }
+
+    .schedule__list {
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      height: 22rem;
+      padding-top: 3rem;
+
+      .schedule-day {
+        text-align: center; 
+        padding: 3rem 3rem 3rem 3rem;
+        margin: 2rem;
+        width: 16rem;
+        font-size: 2rem;
+      }
+    }
+
+  }
+
+  .product__section {
+
+  }
+
+  .practice-info__section {
+
+  }
+  
+}
