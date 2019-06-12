@@ -4,7 +4,10 @@
     width: 100vw;
 
     .schedule__title {
-
+      padding-top: 10rem;
+      border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
+      width: 30%;
+      margin: auto;
     }
 
     .schedule__list {
