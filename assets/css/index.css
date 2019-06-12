@@ -8133,6 +8133,12 @@ img {
 .container-index .schedule__section {
   width: 100vw;
 }
+.container-index .schedule__section .schedule__title {
+  padding-top: 10rem;
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: auto;
+}
 .container-index .schedule__section .schedule__list {
   display: flex;
   justify-content: center;
