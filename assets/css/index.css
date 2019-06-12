@@ -6516,7 +6516,8 @@ img {
 
 .container-gallery .container-gallery__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 0.5fr); }
   .container-gallery .container-gallery__grid figure {
     overflow: hidden;
     margin: 0;
