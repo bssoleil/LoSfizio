@@ -11,6 +11,8 @@
   </head>
 
   <body>
+
+    <!--HEADER INDEX-->
     <nav class="nav z-depth-3">
       <ul class="nav__ul">
         <li class="nav__ul__li"><a>Accueil</a></li>
@@ -28,80 +30,88 @@
       <p class="p__banner">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
       <a class="waves-effect waves-dark btn red darken-4 button__banner" src="./pages/carte.html">Voir la Carte</a>
     </header>
-    <main>
-    <section>
+    <!--HEADER INDEX-->
 
-      <div>
+    <!--CONTAINER INDEX-->
+  <main class="container-index">
+    <!--PRODUCT SECTION-->
+    <section class="product__section">
+
+      <div class="product__image">
         <img src="" alt="Image Pizza">
       </div>
 
-      <div>
-        <h2>Product</h2>
-        <p></p>
+      <div class="product__info">
+        <h2 class="product__title">Product</h2>
+        <p class="product__description">iLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
         <i>?</i>
       </div>
 
     </section>
+    <!--PRODUCT SECTION-->
 
-    <section>
-      <h2>Horaires</h2>
+    <!--SCHEDULE SECTION-->
+    <section class="schedule__section">
+      <h2 class="schedule__title">Horaires</h2>
       <ul>
-        <li>
+        <li class="schedule-day">
           <p>Lundi</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
 
-        <li>
+        <li class="schedule-day">
           <p>Mardi</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
-        <li>
+        <li class="schedule-day">
           <p>Mercredi</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
-        <li>
+        <li class="schedule-day">
           <p>Jeudi</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
-        <li>
+        <li class="schedule-day">
           <p>Vendredi</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
-        <li>
+        <li class="schedule-day">
           <p>Samedi</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
-        <li>
+        <li class="schedule-day">
           <p>Dimanche</p>
           <p>09h-12h</p>
           <p>14h-18h</p>
         </li>
       </ul>
     </section>
+    <!--SCHEDULE SECTION-->
 
-    <section>
-      <h2>Infos Pratiques</h2>
-      <ul>
-        <li>
+    <!--PRACTICE INFO SECTION-->
+    <section class="practice-info__section">
+      <h2 class="practice-info__title">Infos Pratiques</h2>
+      <ul class="practice-info__list">
+        <li class="practice-info__item">
           <p>Cuisine</p>
           <p></p>
           <p></p>
           <p></p>
         </li>
-        <li>
+        <li class="practice-info__item">
           <p>Services</p>
           <p></p>
           <p></p>
           <p></p>
         </li>
 
-        <li>
+        <li class="practice-info__item">
           <p>Paiements</p>
           <p></p>
           <p></p>
@@ -110,10 +120,13 @@
 
       </ul>
 
-
     </section>
-    </main>
+    <!--PRACTICE INFO SECTION-->
 
+    </main>
+    <!--CONTAINER INDEX-->
+
+    <!--FOOTER INDEX-->
     <footer>
       <div>
         <h2>Adresse</h2>
@@ -134,6 +147,7 @@
       </div>
 
     </footer>
+    <!--FOOTER INDEX-->
     <script charset="utf-8">
       document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
