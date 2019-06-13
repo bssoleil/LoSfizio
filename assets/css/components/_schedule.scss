@@ -11,6 +11,7 @@
     }
 
     .schedule__list {
+      flex-flow: row wrap;
       display: flex;
       justify-content: center;
       width: 100vw;
@@ -20,7 +21,7 @@
       .schedule-day {
         text-align: center; 
         padding: 3rem 3rem 3rem 3rem;
-        margin: 2rem;
+        margin: 1rem;
         width: 16rem;
         font-size: 2rem;
       }
