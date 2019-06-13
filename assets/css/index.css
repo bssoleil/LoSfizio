@@ -8118,7 +8118,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin: 0;
   padding-bottom: 0.5rem;
-  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
+  border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
 }
 
 a {
@@ -8261,63 +8261,54 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
   height: 40rem;
   background-color: #2D2D2D;
   color: white;
+  font-size: 1.5rem;
 }
-.footer .footer__address {
+.footer .footer__address, .footer .footer__schedule, .footer .footer__newsletter {
+  width: 25%;
   height: 100%;
-  padding-left: 1rem;
   display: flex;
+  padding-top: 5rem;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-  width: 50%;
 }
-.footer .footer__address p, .footer .footer__address a {
+.footer .footer__address p, .footer .footer__schedule p, .footer .footer__newsletter p, .footer .footer__address a, .footer .footer__schedule a, .footer .footer__newsletter a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
   padding: 0.5rem 0 0.5rem 0;
 }
-.footer .footer__address .footer__address-social {
+.footer .footer__address .footer__address-social, .footer .footer__schedule .footer__address-social, .footer .footer__newsletter .footer__address-social {
   display: flex;
 }
-.footer .footer__address .footer__address-social img {
+.footer .footer__address .footer__address-social img, .footer .footer__schedule .footer__address-social img, .footer .footer__newsletter .footer__address-social img {
   width: 50px;
   height: 50px;
 }
-.footer .footer__address .legals {
-  display: flex;
-  position: relative;
-  justify-content: flex-start;
+.footer .footer__address .footer__h2, .footer .footer__schedule .footer__h2, .footer .footer__newsletter .footer__h2 {
   width: 100%;
-  bottom: 0;
+  margin-bottom: 1rem;
 }
-.footer .container-map {
-  padding: 2rem;
-  width: 50%;
-  height: 100%;
-}
-.footer .container-map iframe {
-  width: 100%;
-  height: 100%;
-}
-.footer .copyright {
-  font-size: 1.3rem;
-  background-color: #2D2D2D;
-  width: 100%;
-  text-align: center;
-  display: flex;
+.footer .footer__newsletter {
   align-items: center;
-  justify-content: center;
-  height: 5rem;
 }
-.footer div {
-  width: 50%;
-  height: 70%;
+.footer .footer__newsletter button {
+  width: 90%;
+  height: 4rem;
+  max-width: 21rem;
+}
+.footer .footer__newsletter label {
+  font-size: 1.5rem;
+}
+.footer .footer__newsletter input {
+  padding-bottom: 0.5rem;
+}
+.footer .footer__newsletter i {
+  padding-top: 0.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */
