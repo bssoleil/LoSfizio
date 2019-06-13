@@ -1,8 +1,10 @@
+
 .container-index {
-  
+
   .schedule__section {
+
     width: 100vw;
-    height: 20vw;
+    height: 15vw;
     margin-top: 10rem;
     margin-bottom: 12rem;
 
@@ -31,6 +33,27 @@
 
   }
 
+  @media screen and (max-width: 1260px) {
+    .schedule__section {
+      height: 40rem;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    .schedule__section {
+      height: 50rem;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .schedule__section {
+      height: 65rem;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .schedule__section {
+      height: 120rem;
+    }
+  }
+
   .product__section {
 
   }
@@ -38,5 +61,6 @@
   .practice-info__section {
 
   }
-  
+
 }
+
