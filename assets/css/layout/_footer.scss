@@ -40,11 +40,27 @@
 
   .footer__schedule {
     @extend .footer__address;
+
+    .footer__schedule__days {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+    }
   }
 
   .footer__newsletter {
     @extend .footer__schedule;
     align-items: center;
+
+    form {
+      width: 95%;
+    }
+
+    p {
+      padding: 1.5rem;
+    }
 
     button {
       width: 90%;

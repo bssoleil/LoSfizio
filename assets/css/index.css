@@ -8293,8 +8293,20 @@ body {
   width: 100%;
   margin-bottom: 1rem;
 }
+.footer .footer__schedule .footer__schedule__days, .footer .footer__newsletter .footer__schedule__days {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .footer .footer__newsletter {
   align-items: center;
+}
+.footer .footer__newsletter form {
+  width: 95%;
+}
+.footer .footer__newsletter p {
+  padding: 1.5rem;
 }
 .footer .footer__newsletter button {
   width: 90%;
