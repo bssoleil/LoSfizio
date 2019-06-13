@@ -8305,9 +8305,15 @@ body {
   padding: 1.5rem;
 }
 .footer .footer__newsletter button {
-  width: 90%;
-  height: 4rem;
-  max-width: 21rem;
+  width: 95%;
+  height: 5rem;
+  border: 1px solid #ffffff;
+  max-width: 100%;
+  color: white;
+  background-color: #2d2d2d;
+}
+.footer .footer__newsletter button:hover {
+  background-color: transparent;
 }
 .footer .footer__newsletter label {
   font-size: 1.5rem;
