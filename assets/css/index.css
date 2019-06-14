@@ -6549,7 +6549,8 @@ img {
   background-image: url("../images/IMG_5203.JPG");
   background-size: cover;
   background-position: center bottom;
-  z-index: -1; }
+  z-index: -1;
+  background-attachment: fixed; }
 
 .h1__banner {
   font-size: 5rem;

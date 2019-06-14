@@ -20,7 +20,6 @@
 .header__banner {
   height: 100vh;
 
-
 }
 
 .header__banner::before {
@@ -33,6 +32,7 @@
   background-size: cover;
   background-position: center bottom;
   z-index: -1;
+  background-attachment: fixed;
   
 
 }
