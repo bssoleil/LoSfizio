@@ -6678,7 +6678,8 @@ body {
   width: 100%;
   height: 40rem;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  background-attachment: fixed; }
   .product__section .product__image img {
     width: 100%;
     height: 100%; }
