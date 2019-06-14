@@ -1,3 +1,34 @@
-.section-food-type {
-  border: solid 0.1rem rgba(0, 0, 0, 0.2);
+.main-carte {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+
+  h2 {
+    border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: auto;
+    margin-bottom: 3.5rem;
+  }
+
+  .section-food-type {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 3vw;
+    width: 60%;
+    border: solid 0.1rem rgba(0, 0, 0, 1);
+
+    .container-food-type__element-part {
+      text-align: left;
+
+      h3 {
+        text-align: left;
+        margin-top: 0.5vw;
+        margin-bottom: .5vw;
+      }
+    }
+  }
 }

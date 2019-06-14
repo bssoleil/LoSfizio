@@ -8333,8 +8333,35 @@ body {
   padding-top: 0.5rem;
 }
 
-.section-food-type {
-  border: solid 0.1rem rgba(0, 0, 0, 0.2);
+.main-carte {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.main-carte h2 {
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: auto;
+  margin-bottom: 3.5rem;
+}
+.main-carte .section-food-type {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  padding: 3vw;
+  width: 60%;
+  border: solid 0.1rem black;
+}
+.main-carte .section-food-type .container-food-type__element-part {
+  text-align: left;
+}
+.main-carte .section-food-type .container-food-type__element-part h3 {
+  text-align: left;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
 
 .practical-info__section {
