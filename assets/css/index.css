@@ -6492,6 +6492,8 @@ img {
       text-align: center;
       width: 100%;
       height: 7rem; }
+    .nav .nav__ul .link-logo {
+      background-color: transparent; }
     .nav .nav__ul .logo-losfizio {
       padding: 2rem;
       width: 22rem; }
@@ -6524,7 +6526,7 @@ img {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   background-image: url("../images/img-devanture.jpg");
   background-size: cover;
   background-position: center 30%; }
@@ -6620,9 +6622,14 @@ body {
     .footer .footer__newsletter p {
       padding: 1.5rem; }
     .footer .footer__newsletter button {
-      width: 90%;
-      height: 4rem;
-      max-width: 21rem; }
+      width: 95%;
+      height: 5rem;
+      border: 1px solid #ffffff;
+      max-width: 100%;
+      color: white;
+      background-color: #2d2d2d; }
+      .footer .footer__newsletter button:hover {
+        background-color: transparent; }
     .footer .footer__newsletter label {
       font-size: 1.5rem; }
     .footer .footer__newsletter input {
@@ -6632,7 +6639,7 @@ body {
 
 .container-index .schedule__section {
   width: 100vw;
-  height: 20vw;
+  height: 15vw;
   margin-top: 10rem;
   margin-bottom: 12rem; }
   .container-index .schedule__section .schedule__title {
@@ -6652,6 +6659,18 @@ body {
       margin: 1rem;
       width: 16rem;
       font-size: 2rem; }
+@media screen and (max-width: 1260px) {
+  .container-index .schedule__section {
+    height: 40rem; } }
+@media screen and (max-width: 720px) {
+  .container-index .schedule__section {
+    height: 50rem; } }
+@media screen and (max-width: 540px) {
+  .container-index .schedule__section {
+    height: 65rem; } }
+@media screen and (max-width: 360px) {
+  .container-index .schedule__section {
+    height: 120rem; } }
 
 .product__section .product__image {
   background-image: url(../images/gallery-9.jpg);
