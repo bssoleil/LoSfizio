@@ -8381,26 +8381,6 @@ body {
   width: 16rem;
   font-size: 1.7rem;
 }
-@media screen and (max-width: 1260px) {
-  .container-index .schedule__section {
-    height: 40rem;
-  }
-}
-@media screen and (max-width: 720px) {
-  .container-index .schedule__section {
-    height: 50rem;
-  }
-}
-@media screen and (max-width: 540px) {
-  .container-index .schedule__section {
-    height: 65rem;
-  }
-}
-@media screen and (max-width: 360px) {
-  .container-index .schedule__section {
-    height: 120rem;
-  }
-}
 .product__section {
   position: relative;
 }
