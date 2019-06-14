@@ -6550,9 +6550,8 @@ img {
   filter: brightness(40%);
   background-image: url("../images/banner2.jpg");
   background-size: cover;
-  background-position: center bottom;
-  z-index: -1;
-  background-attachment: fixed; }
+  background-position: center center;
+  z-index: -1; }
 
 .h1__banner {
   font-size: 5rem;
