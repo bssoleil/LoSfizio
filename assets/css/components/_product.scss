@@ -44,6 +44,7 @@
 
     .product__title {
       position: absolute;
+      top: 50%;
       right: 2rem;
       font-size: 5rem;
 
@@ -51,8 +52,9 @@
 
     .product__description {
       position: absolute;
-      top: 8rem;
+      top: 10vw;
       right: 0;
+      max-width: 40vw;
       font-size: 1.7rem;
 
     }
