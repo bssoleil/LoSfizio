@@ -6495,8 +6495,8 @@ img {
     .nav .nav__ul .link-logo {
       background-color: transparent; }
     .nav .nav__ul .logo-losfizio {
-      padding: 2rem;
-      width: 22rem; }
+      width: 22rem;
+      filter: drop-shadow(3px 3px 2px black); }
     .nav .nav__ul a {
       font-size: 2rem;
       color: #ffffff; }
