@@ -8237,6 +8237,7 @@ img {
 }
 
 .p__banner {
+  margin: auto;
   padding-top: 2rem;
   font-size: 1.7rem;
   color: rgba(255, 255, 255, 0.7);
