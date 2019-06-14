@@ -12,6 +12,7 @@
       border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
       width: 30%;
       margin: auto;
+      font-size: 5rem;
     }
 
     .schedule__list {
@@ -24,8 +25,8 @@
 
       .schedule-day {
         text-align: center; 
-        padding: 3rem 3rem 3rem 3rem;
-        margin: 1rem;
+        padding: 3rem; 
+        margin: auto;
         width: 16rem;
         font-size: 2rem;
       }

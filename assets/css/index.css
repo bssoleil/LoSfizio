@@ -6564,7 +6564,7 @@ img {
 
 .p__banner {
   padding-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: rgba(255, 255, 255, 0.7); }
 
 .button__banner {
@@ -6637,6 +6637,24 @@ body {
     .footer .footer__newsletter i {
       padding-top: .5rem; }
 
+.practical-info__section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  color: #1d1d1d; }
+  .practical-info__section .practical-info__title {
+    margin: auto;
+    font-size: 5rem;
+    width: 30%; }
+  .practical-info__section .practical-info__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.5rem; }
+    .practical-info__section .practical-info__list .practical-info__item {
+      margin: auto; }
+      .practical-info__section .practical-info__list .practical-info__item .practical-info__detail-item {
+        padding: 1rem; }
+
 .container-index .schedule__section {
   width: 100vw;
   height: 15vw;
@@ -6645,7 +6663,8 @@ body {
   .container-index .schedule__section .schedule__title {
     border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
     width: 30%;
-    margin: auto; }
+    margin: auto;
+    font-size: 5rem; }
   .container-index .schedule__section .schedule__list {
     flex-flow: row wrap;
     display: flex;
@@ -6655,8 +6674,8 @@ body {
     padding-top: 3rem; }
     .container-index .schedule__section .schedule__list .schedule-day {
       text-align: center;
-      padding: 3rem 3rem 3rem 3rem;
-      margin: 1rem;
+      padding: 3rem;
+      margin: auto;
       width: 16rem;
       font-size: 2rem; }
 @media screen and (max-width: 1260px) {

@@ -1,0 +1,30 @@
+.practical-info__section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  color: #1d1d1d;
+
+  .practical-info__title {
+    margin: auto;
+    font-size: 5rem;
+    width: 30%;
+  }
+
+  .practical-info__list {
+     display: flex;
+     justify-content: center;
+     margin-top: 2rem;
+     font-size: 1.5rem;
+    
+
+     .practical-info__item {
+       margin: auto;
+
+       .practical-info__detail-item {
+         padding : 1rem;
+       }
+
+     }
+
+  }
+
+}
