@@ -6629,7 +6629,9 @@ body {
       color: white;
       background-color: #2d2d2d; }
       .footer .footer__newsletter button:hover {
-        background-color: transparent; }
+        background-color: transparent;
+        box-shadow: 0.1rem 0.1rem 1rem #1d1d1d;
+        background-color: rgba(183, 28, 28, 0.5); }
     .footer .footer__newsletter label {
       font-size: 1.5rem; }
     .footer .footer__newsletter input {
