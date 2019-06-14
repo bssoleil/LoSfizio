@@ -6566,6 +6566,7 @@ img {
   border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2); }
 
 .p__banner {
+  margin: auto;
   padding-top: 2rem;
   font-size: 1.7rem;
   color: rgba(255, 255, 255, 0.7); }
