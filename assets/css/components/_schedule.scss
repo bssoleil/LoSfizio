@@ -4,7 +4,7 @@
   .schedule__section {
 
     width: 100vw;
-    height: 15vw;
+    height: 100vh;
     margin-top: 10rem;
     margin-bottom: 12rem;
 
@@ -21,7 +21,7 @@
       justify-content: center;
       width: 100vw;
       height: 22rem;
-      padding-top: 3rem;
+      padding : 3rem 8rem 0 8rem;
 
       .schedule-day {
         text-align: center; 
