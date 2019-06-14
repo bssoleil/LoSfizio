@@ -8332,6 +8332,10 @@ body {
   padding-top: 0.5rem;
 }
 
+.section-food-type {
+  border: solid 0.1rem rgba(0, 0, 0, 0.2);
+}
+
 .practical-info__section {
   margin-top: 10rem;
   margin-bottom: 10rem;
