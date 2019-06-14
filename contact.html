@@ -10,19 +10,21 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a>Accueil</a></li>
-            <li><a>La Carte</a></li>
-            <img src="assets/images/logo-losfizio.png" alt="logo losfizio ">
-            <li><a>Galerie</a></li>
-            <li><a>Contact</a></li>
-
-        </ul>
+    <nav class="nav z-depth-3">
+      <ul class="nav__ul">
+        <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
+        <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
+        <li class="nav__ul__li">
+          <a class="link-logo" href="index.html"><img class="logo-losfizio" src="assets/images/whitelogo.png" alt="logo losfizio"></a>
+        </li>
+        <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
+        <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    <header>
 
-        <h1>Contact</h1>
+    <header class="header">
+
+      <h1>Contact</h1>
 
     </header>
 
@@ -72,24 +74,67 @@
         </section>
     </main>
 
-    <footer>
-        <div>
-            <h2>Adresse</h2>
-            <p>Rue</p>
-            <p>Ville</p>
-            <p>Code postale</p>
+    <footer class="footer">
+      <div class="footer__address">
+        <h2 class="footer__h2">Adresse</h2>
+        <p>146 rue du Faubourg Saint-Antoine</p>
+        <p>75012 PARIS</p>
+        <a href="tel:+33143473035">01.43.47.30.35</a>
+        <a href="mailto:pizzeria@losfizio.fr">pizzeria@losfizio.fr</a>
 
-            <ul>
-                <li><i>Facebook</i></li>
-                <li><i>Twitter</i></li>
-                <li><i>Youtube</i></li>
-            </ul>
+        <ul class="footer__address-social">
+          <li>
+            <a href="">
+              <img src="../assets/images/facebook.svg" alt="logo facebook"/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../assets/images/twitter.png" alt="logo twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="../assets/images/instagram.svg" alt="logo instagram"/>
+            </a>
+          </li>
+        </ul>
 
-        </div>
+        <ul class="legals">
+          <a href="https://icons8.com/icon/118500/facebook-nouveau">icon by Icons8</a>
+        </ul>
+      </div>
 
-        <div>
-            <iframe src="" frameborder="0"></iframe>
-        </div>
+      <div class="footer__schedule">
+        <h2 class="footer__h2">Horaire</h2>
+        <section class="footer__schedule__days">
+          <ul>
+            <h3>Aujourd'hui</h3>
+            <p>Ouvert / fermé</p>
+            <p>Ferme à 18h</p>
+            <p>Ouvre à 09h</p>
+          </ul>
+          <ul>
+            <h3>Demain</h3>
+            <p>Ouvert / fermé</p>
+            <p>Ferme à 18h</p>
+            <p>Ouvre à 09h</p>
+          </ul>
+        </section>
+      </div>
+
+      <div class="footer__newsletter">
+        <h2 class="footer__h2">Newsletter</h2>
+        <form id="newsletter" class="input-field">
+          <i class="material-icons prefix">alternate_email</i>
+          <input id="autocomplete-input" class="autocomplete validate" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+          <label for="autocomplete-input">Votre email</label>
+        </form>
+        <p>En vous inscrivant à notre newsletter vous acceptez de recevoir des communications et offres marketing personnalisées par mail de notre part.</p>
+        <button class="waves-effect" type="submit" form="newsletter">S'inscrire</button>
+      </div>
+
+      <!-- <p class="copyright">Copyright LoSfizio</p> -->
 
     </footer>
 </body>
