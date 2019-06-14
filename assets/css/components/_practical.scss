@@ -4,12 +4,18 @@
   color: #1d1d1d;
 
   .practical-info__title {
+    border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
     margin: auto;
     font-size: 5rem;
     width: 30%;
   }
 
   .practical-info__list {
+
+    h3 {
+     border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
+    }
+
      display: flex;
      justify-content: center;
      margin-top: 2rem;

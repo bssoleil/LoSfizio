@@ -6579,7 +6579,7 @@ img {
     background-color: rgba(183, 28, 28, 0.3); }
 
 body {
-  background-color: #bfbfbf; }
+  background-color: #ffffff; }
 
 .footer {
   display: flex;
@@ -6644,6 +6644,7 @@ body {
   margin-bottom: 10rem;
   color: #1d1d1d; }
   .practical-info__section .practical-info__title {
+    border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
     margin: auto;
     font-size: 5rem;
     width: 30%; }
@@ -6652,6 +6653,8 @@ body {
     justify-content: center;
     margin-top: 2rem;
     font-size: 1.5rem; }
+    .practical-info__section .practical-info__list h3 {
+      border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2); }
     .practical-info__section .practical-info__list .practical-info__item {
       margin: auto; }
       .practical-info__section .practical-info__list .practical-info__item .practical-info__detail-item {
@@ -6679,7 +6682,7 @@ body {
       padding: 3rem;
       margin: auto;
       width: 16rem;
-      font-size: 2rem; }
+      font-size: 1.7rem; }
 @media screen and (max-width: 1260px) {
   .container-index .schedule__section {
     height: 40rem; } }
