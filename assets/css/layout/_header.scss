@@ -29,7 +29,7 @@
 
 .header__banner {
   height: 100vh;
-
+  margin-bottom: 0;
 }
 
 .header__banner::before {
@@ -42,7 +42,6 @@
   background-size: cover;
   background-position: center center;
   z-index: -1;
-  
 
 }
 .h1__banner {
@@ -64,7 +63,7 @@
 
 .button__banner {
   border: 1px solid $white;
-  margin-top: 20vh;
+  margin-top: 10vw;
   max-width: 30rem;
   width: 30vw;
   color: white;
@@ -72,7 +71,7 @@
   &:hover {
     background-color: transparent;
     box-shadow: 0.5rem 0.5rem 10rem black;
-    background-color: rgba(183,28,28, .3);
+    background-color: rgba(74,5,21, 0.5);
     
   }
 

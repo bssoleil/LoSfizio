@@ -1,11 +1,6 @@
-
-.container-index {
-
   .schedule__section {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 10rem;
-    margin-bottom: 12rem;
+    height: 72vh;
+    margin-top: 12rem;
 
     .schedule__title {
       border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
@@ -18,27 +13,15 @@
       flex-flow: row wrap;
       display: flex;
       justify-content: center;
-      width: 100vw;
       height: 22rem;
       padding : 3rem 8rem 0 8rem;
 
       .schedule-day {
         text-align: center; 
-        padding: 3rem; 
         margin: auto;
-        width: 16rem;
+        padding: 3rem;
+        width: 14rem;
         font-size: 1.7rem;
       }
     }
   }
-
-  .product__section {
-
-  }
-
-  .practice-info__section {
-
-  }
-
-}
-
