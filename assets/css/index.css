@@ -6499,7 +6499,9 @@ img {
     .nav .nav__ul .link-logo {
       background-color: transparent; }
     .nav .nav__ul .logo-losfizio {
-      width: 22rem;
+      margin-top: 2rem;
+      object-fit: scale-down;
+      max-width: 18rem;
       filter: drop-shadow(3px 3px 2px black); }
     .nav .nav__ul a {
       font-size: 2rem;
@@ -6671,12 +6673,13 @@ body {
         margin-bottom: .5vw; }
 
 .container-contact {
-  display: flex; }
+  display: flex;
+  margin-bottom: 10vw; }
   .container-contact .about__section {
-    display: block;
-    width: 50vw;
-    height: 100vh;
-    text-align: center; }
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh; }
     .container-contact .about__section .about__img {
       height: 50%;
       background-image: url("../images/banner1.jpg");
@@ -6687,7 +6690,27 @@ body {
       margin: 3vw 0 1rem 0; }
     .container-contact .about__section .about__p {
       font-size: 1.7rem;
-      padding: 0 3vw 03vw; }
+      padding: 1rem 3vw 1rem 3vw; }
+  .container-contact .contact__section {
+    display: flex;
+    font-size: 1.7rem; }
+    .container-contact .contact__section .contact__form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50vw; }
+  .container-contact .contact__message-shell {
+    height: 20vw; }
+  .container-contact .contact__btn-shell {
+    width: 50%;
+    height: 5rem;
+    border: 1px solid #6d6d6d;
+    max-width: 100%;
+    color: #2d2d2d; }
+    .container-contact .contact__btn-shell:hover {
+      box-shadow: 0.1rem 0.1rem 2rem #1d1d1d;
+      background-color: #4a0515; }
 
 .practical-info__section {
   margin-top: 10rem;

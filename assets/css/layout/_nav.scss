@@ -25,7 +25,9 @@
     }
 
     .logo-losfizio {
-      width: 22rem;
+      margin-top: 2rem;
+      object-fit: scale-down;
+      max-width: 18rem;
       filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 1));
     }
 
