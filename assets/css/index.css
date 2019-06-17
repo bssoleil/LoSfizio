@@ -6670,6 +6670,25 @@ body {
         margin-top: 0.5vw;
         margin-bottom: .5vw; }
 
+.container-contact {
+  display: flex; }
+  .container-contact .about__section {
+    display: block;
+    width: 50vw;
+    height: 100vh;
+    text-align: center; }
+    .container-contact .about__section .about__img {
+      height: 50%;
+      background-image: url("../images/banner1.jpg");
+      background-size: cover;
+      background-position: center center; }
+    .container-contact .about__section .about__title {
+      font-size: 5rem;
+      margin: 3vw 0 1rem 0; }
+    .container-contact .about__section .about__p {
+      font-size: 1.7rem;
+      padding: 0 3vw 03vw; }
+
 .practical-info__section {
   margin-top: 10rem;
   margin-bottom: 10rem;
