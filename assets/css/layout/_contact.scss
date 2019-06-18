@@ -1,7 +1,8 @@
 .container-contact {
   display: flex;
   margin-bottom: 10vw;
-  
+}
+
   .about__section {
     display: flex;
     flex-direction: column;
@@ -11,7 +12,7 @@
     
     .about__img {
       height: 50%;
-      background-image: url('../images/banner1.jpg');
+      background-image: url('../images/about.jpg');
       background-size: cover;
       background-position: center center;
     }
@@ -32,35 +33,61 @@
 
   .contact__section {
     display: flex;
-    font-size: 1.7rem;
+    margin: auto;
 
     .contact__form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 50vw;
-     
-    }
-   }
+      margin-top: 2vw;
 
-      .contact__message-shell {
-        height: 20vw;
-      }
-      
-      .contact__btn-shell {
-      width: 50%;
-      height: 5rem;
-      border: 1px solid #6d6d6d;
-      max-width: 100%;
-      color: #2d2d2d;
+      fieldset {
+        font-size: 1.7rem;
+        background-color: #2d2d2d;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 1rem;
 
-        &:hover {
-          box-shadow: 0.1rem 0.1rem 2rem #1d1d1d;
-          background-color: rgb(74,5,21) ;
-    
-        }
       }
 
+      .firstname {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+
+      .lastname {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+      }
+
+      .email {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 50rem;
+
+      }
+
+      .message {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        width: 50rem;
+
+      }
+
+      .btn-submit {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+      }
 
     }
+  }
