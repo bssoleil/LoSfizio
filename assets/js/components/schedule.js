@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////////
+//                             variables                              //
+////////////////////////////////////////////////////////////////////////
+  const schedule = document.getElementsByClassName('schedule-day')[0];
+
+
+////////////////////////////////////////////////////////////////////////
+//                             functions                              //
+////////////////////////////////////////////////////////////////////////
+
+  function toggleTextRed() {
+    schedule.classList.add('green-text', 'text-darken-3');
+  }
+
+  function setActiveDay() {
+    let actualDate = new Date();
+    console.log(actualDate);
+  }
+
+export default setActiveDay();
