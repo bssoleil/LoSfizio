@@ -1,21 +1,16 @@
 .container-contact {
+  background-image: url('../images/about.jpg');
+  background-size: 70%;
   display: flex;
-  margin-bottom: 10vw;
+  flex-direction: column;
 }
 
   .about__section {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin: auto;
+    width: 70%;
     height: 100vh;
-
-    
-    .about__img {
-      height: 50%;
-      background-image: url('../images/about.jpg');
-      background-size: cover;
-      background-position: center center;
-    }
 
     .about__title {
       font-size: 5rem;
@@ -33,10 +28,11 @@
 
   .contact__section {
     display: flex;
-    margin: auto;
 
     .contact__form {
-      margin-top: 2vw;
+      margin: auto;
+      width: 70%;
+      border: 1px solid $gray;
 
       fieldset {
         font-size: 1.7rem;
@@ -52,8 +48,8 @@
         grid-row: 1 / 2;
 
         input {
-          width: 16vw;
-          height : 1.6vw;
+          width: 33vw;
+          height : 2.5vw;
           background-color: $gray;
         }
       }
@@ -63,8 +59,8 @@
         grid-row: 1 / 2;
 
         input {
-          width: 16vw;
-          height : 1.6vw;
+          width: 33vw;
+          height : 2.5vw;
           background-color: $gray;
         }
       }
@@ -74,8 +70,8 @@
         grid-row: 2 / 3;
 
         input {
-          width: calc(32vw + 1rem);
-          height : 1.6vw;
+          width: calc(66vw + 1rem);
+          height : 2.5vw;
           background-color: $gray;
         }
       }
@@ -85,7 +81,7 @@
         grid-row: 3 / 5;
 
         textarea {
-          width: calc(32vw + 1rem);
+          width: calc(66vw + 1rem);
           height: 20vh;
           background-color: $gray;
         }
@@ -99,4 +95,11 @@
       }
 
     }
+
   }
+
+    .contact__map {
+      display: flex;
+      margin: auto;
+      width: 70%;
+    }
