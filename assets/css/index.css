@@ -6720,16 +6720,20 @@ body {
   display: flex; }
   .contact__section .contact__form {
     border: 1px solid #bfbfbf;
-    background-color: rgba(255, 255, 255, 0.5); }
+    background-color: rgba(0, 0, 0, 0.7); }
     .contact__section .contact__form fieldset {
       width: 60vw; }
       .contact__section .contact__form fieldset .input-field label {
-        font-size: 1.7rem; }
+        font-size: 1.7rem;
+        color: #ffffff; }
       .contact__section .contact__form fieldset .input-field input {
         padding-bottom: 0.7rem; }
       .contact__section .contact__form fieldset .input-field textarea {
         font-size: 1.7rem;
         padding-bottom: 5rem; }
+      .contact__section .contact__form fieldset .input-field input[type=text]:focus + label {
+        font-size: 1.5rem;
+        color: #4a0515; }
       .contact__section .contact__form fieldset .input-field .contact__button {
         display: flex;
         float: right; }
