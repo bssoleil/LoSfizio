@@ -6720,28 +6720,50 @@ body {
   display: flex; }
   .contact__section .contact__form {
     border: 1px solid #bfbfbf;
-    background-color: rgba(0, 0, 0, 0.7); }
+    background-color: rgba(255, 255, 255, 0.1); }
     .contact__section .contact__form fieldset {
       width: 60vw; }
       .contact__section .contact__form fieldset .input-field label {
         font-size: 1.7rem;
-        color: #ffffff; }
+        color: #000000; }
       .contact__section .contact__form fieldset .input-field input {
         padding-bottom: 0.7rem; }
+      .contact__section .contact__form fieldset .input-field input:focus + label {
+        font-size: 1.5rem;
+        color: #2d2d2d; }
+      .contact__section .contact__form fieldset .input-field input:focus {
+        border-bottom: 1px solid #2d2d2d;
+        box-shadow: 0 1px 0 0 #000; }
       .contact__section .contact__form fieldset .input-field textarea {
         font-size: 1.7rem;
         padding-bottom: 5rem; }
-      .contact__section .contact__form fieldset .input-field input[type=text]:focus + label {
+      .contact__section .contact__form fieldset .input-field textarea:focus + label {
         font-size: 1.5rem;
-        color: #4a0515; }
-      .contact__section .contact__form fieldset .input-field .contact__button {
+        color: #2d2d2d; }
+      .contact__section .contact__form fieldset .input-field textarea:focus {
+        border-bottom: 1px solid #2d2d2d;
+        box-shadow: 0 1px 0 0 #000; }
+      .contact__section .contact__form fieldset .contact__button {
         display: flex;
-        float: right; }
+        justify-content: center;
+        padding-bottom: 2vw; }
+        .contact__section .contact__form fieldset .contact__button .button__form {
+          background-color: transparent;
+          border: 1px solid #2d2d2d;
+          color: #2d2d2d;
+          width: 25vw; }
+          .contact__section .contact__form fieldset .contact__button .button__form:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            color: #000000; }
+
+.select-wrapper {
+  padding-top: 2rem; }
 
 .contact__map {
   display: flex;
   margin: auto auto 5vw auto;
-  width: 60%; }
+  width: 60%;
+  border: 1px solid rgba(0, 0, 0, 0.7); }
 
 .practical-info__section {
   margin-top: 10rem;
