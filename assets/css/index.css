@@ -6801,7 +6801,7 @@ body {
         padding: 1rem; }
 
 .schedule__section {
-  height: 30vw;
+  height: 60vh;
   margin-top: 10vw; }
   .schedule__section .schedule__title {
     border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
@@ -6809,17 +6809,22 @@ body {
     margin: auto;
     font-size: 5rem; }
   .schedule__section .schedule__list {
-    flex-flow: row wrap;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-around;
     justify-content: center;
-    height: 22rem;
-    padding: 3rem 8rem 0 8rem; }
+    padding-top: 3rem; }
     .schedule__section .schedule__list .schedule-day {
-      text-align: center;
-      margin: auto;
-      padding: 3rem;
-      width: 14rem;
-      font-size: 1.7rem; }
+      width: 9vw;
+      height: 9vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 1rem;
+      font-size: 1.2vw; }
 
 .product__section {
   position: relative; }

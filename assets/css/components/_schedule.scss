@@ -1,27 +1,32 @@
-  .schedule__section {
-    height: 30vw;
-    margin-top: 10vw;
+.schedule__section {
+  height: 60vh;
+  margin-top: 10vw;
 
-    .schedule__title {
-      border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
-      width: 30%;
-      margin: auto;
-      font-size: 5rem;
-    }
+  .schedule__title {
+    border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
+    width: 30%;
+    margin: auto;
+    font-size: 5rem;
+  }
 
-    .schedule__list {
-      flex-flow: row wrap;
+  .schedule__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-around;
+    justify-content: center;
+    padding-top: 3rem;
+
+    .schedule-day {
+      width: 9vw;
+      height: 9vw;
       display: flex;
-      justify-content: center;
-      height: 22rem;
-      padding : 3rem 8rem 0 8rem;
-
-      .schedule-day {
-        text-align: center; 
-        margin: auto;
-        padding: 3rem;
-        width: 14rem;
-        font-size: 1.7rem;
-      }
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      margin: 1rem;
+      font-size:1.2vw;
     }
   }
+}
