@@ -6594,7 +6594,6 @@ img {
 .button__banner {
   border: 1px solid #ffffff;
   margin-top: 10vw;
-  max-width: 30rem;
   width: 30vw;
   color: white; }
   .button__banner:hover {
@@ -6602,6 +6601,9 @@ img {
     box-shadow: 0.5rem 0.5rem 10rem black;
     background-color: rgba(74, 5, 21, 0.5); }
 
+@media (max-width: 420px) {
+  .button__banner {
+    width: 60vw; } }
 body {
   background-color: #ffffff; }
 
