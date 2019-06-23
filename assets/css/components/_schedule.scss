@@ -30,3 +30,15 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .schedule__section {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .schedule__section {
+    height: 30vh;
+  }
+}

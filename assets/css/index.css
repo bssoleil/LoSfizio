@@ -6828,6 +6828,12 @@ body {
       margin: 1rem;
       font-size: 1.2vw; }
 
+@media (max-width: 1024px) {
+  .schedule__section {
+    height: 40vh; } }
+@media (max-width: 800px) {
+  .schedule__section {
+    height: 30vh; } }
 .product__section {
   position: relative; }
   .product__section .product__image {
