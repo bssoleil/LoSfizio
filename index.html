@@ -1,138 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=u, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Accueil</title>
-</head>
+  </head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="carte.html">La Carte</a></li>
-            <img src="assets/images/logo-losfizio.png" alt="logo losfizio ">
-            <li><a href="galerie.html">Galerie</a></li>
-            <li><a href="contact.html">Contact</a></li>
+  <body>
 
-        </ul>
+    <!--HEADER INDEX-->
+    <nav class="nav z-depth-3">
+      <ul class="nav__ul">
+        <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
+        <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
+        <li class="nav__ul__li">
+          <a class="link-logo" href="index.html"><img class="logo-losfizio" src="assets/images/whitelogo.png" alt="logo losfizio"></a>
+        </li>
+        <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
+        <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    <header>
 
-        <h1>Accueil</h1>
-        <p></p>
-        <button>Voir la Carte</button>
-
+    <header class="row center-align header__banner">
+      <h1 class="h1__banner">La Meilleur Pizza</h1>
+      <p class="p__banner">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+      <a class="waves-effect waves-dark btn-flat btn-large hoverable button__banner" src="./carte.html">Voir la Carte</a>
     </header>
-    <main>
-        <section>
+    <!--HEADER INDEX-->
 
-            <div>
-                <img src="" alt="Image Pizza">
-            </div>
+    <!--CONTAINER INDEX-->
+    <main class="container-index">
 
-            <div>
-                <h2>Product</h2>
-                <p></p>
-                <i>?</i>
-            </div>
+    <!--SCHEDULE SECTION-->
+    <section class="schedule__section">
+      <h2 class="schedule__title">Horaires</h2>
+      <ul class="schedule__list">
+        <li class="schedule-day day1 z-depth-1 hoverable">
+          <p class="day-title">Lundi</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
 
-        </section>
+        <li class="schedule-day day2 z-depth-1 hoverable">
+          <p class="day-title">Mardi</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
+        <li class="schedule-day day3 z-depth-1 hoverable">
+          <p class="day-title">Mercredi</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
+        <li class="schedule-day day4 z-depth-1 hoverable">
+          <p class="day-title">Jeudi</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
+        <li class="schedule-day day5 z-depth-1 hoverable">
+          <p class="day-title">Vendredi</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
+        <li class="schedule-day day6 z-depth-1 hoverable">
+          <p class="day-title">Samedi</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
+        <li class="schedule-day day7 z-depth-1 hoverable">
+          <p class="day-title">Dimanche</p>
+          <p>09h-12h</p>
+          <p>14h-18h</p>
+        </li>
+      </ul>
+    </section>
+    <!--SCHEDULE SECTION-->
 
-        <section>
-            <h2>Horaires</h2>
-            <ul>
-                <li>
-                    <p>Lundi</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
+    <!--PRODUCT SECTION-->
+    <section class="product__section">
 
-                <li>
-                    <p>Mardi</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
-                <li>
-                    <p>Mercredi</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
-                <li>
-                    <p>Jeudi</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
-                <li>
-                    <p>Vendredi</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
-                <li>
-                    <p>Samedi</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
-                <li>
-                    <p>Dimanche</p>
-                    <p>09h-12h</p>
-                    <p>14h-18h</p>
-                </li>
-            </ul>
-        </section>
+      <div class="product__image">
+        <img src="assets/images/triangle.png" alt="Image Pizza">
+      </div>
 
-        <section>
-            <h2>Infos Pratiques</h2>
-            <ul>
-                <li>
-                    <p>Cuisine</p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </li>
-                <li>
-                    <p>Services</p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </li>
+      <div class="product__info">
+        <h2 class="product__title">Product</h2>
+        <p class="product__description">iLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <!-- <a class="btn-floating"><img src="./assets/images/whitepoint.png"></a> -->
+        <a class="waves-effect waves-dark btn-flat btn-large hoverable button__product" src="./carte.html">Voir la Carte</a>
+      </div>
 
-                <li>
-                    <p>Paiements</p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </li>
+    </section>
+    <!--PRODUCT SECTION-->
 
-            </ul>
+    <!--PRACTICAL INFO SECTION-->
+    <section class="practical-info__section">
+      <h2 class="practical-info__title">Infos Pratiques</h2>
+      <ul class="practical-info__list">
+        <li class="practical-info__item">
+          <h3>Cuisine</h3>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+        </li>
+        <li class="practical-info__item">
+          <h3>Services</h3>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+        </li>
 
+        <li class="practical-info__item">
+          <h3>Paiements</h3>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+          <p class="practical-info__detail-item">Lorem ipsum</p>
+        </li>
 
-        </section>
+      </ul>
+
+    </section>
+    <!--PRACTICAL INFO SECTION-->
+
     </main>
+    <!--CONTAINER INDEX-->
 
-    <footer>
-        <div>
-            <h2>Adresse</h2>
-            <p>Rue</p>
-            <p>Ville</p>
-            <p>Code postale</p>
+    <!--FOOTER INDEX-->
+    <footer class="footer">
+      <div class="footer__address">
+        <h2 class="footer__h2">Adresse</h2>
+        <p>146 rue du Faubourg Saint-Antoine</p>
+        <p>75012 PARIS</p>
+        <a href="tel:+33143473035">01.43.47.30.35</a>
+        <a href="mailto:pizzeria@losfizio.fr">pizzeria@losfizio.fr</a>
 
-            <ul>
-                <li><i>Facebook</i></li>
-                <li><i>Twitter</i></li>
-                <li><i>Youtube</i></li>
-            </ul>
+        <ul class="footer__address-social">
+          <li>
+            <a href="">
+              <img src="assets/images/facebook.svg" alt="logo facebook"/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/images/twitter.png" alt="logo twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/images/instagram.svg" alt="logo instagram"/>
+            </a>
+          </li>
+        </ul>
 
-        </div>
+        <ul class="legals">
+          <a href="https://icons8.com/icon/118500/facebook-nouveau">icon by Icons8</a>
+        </ul>
+      </div>
 
-        <div>
-            <iframe src="" frameborder="0"></iframe>
-        </div>
+      <div class="footer__schedule">
+        <h2 class="footer__h2">Horaire</h2>
+        <section class="footer__schedule__days">
+          <ul>
+            <h3>Aujourd'hui</h3>
+            <p class="footer-actual-day__opening">Ouvert / fermé</p>
+            <p class="footer-actual-day__closed">Ferme à 18h</p>
+            <p class="footer-actual-day__opened">Ouvre à 09h</p>
+          </ul>
+          <ul>
+            <h3>Demain</h3>
+            <p class="footer-tomorrow-day__opening">Ouvert / fermé</p>
+            <p class="footer-tomorrow-day__closed">Ferme à 18h</p>
+            <p class="footer-tomorrow-day__opened">Ouvre à 09h</p>
+          </ul>
+        </section>
+      </div>
+
+      <div class="footer__newsletter">
+        <h2 class="footer__h2">Newsletter</h2>
+        <form id="newsletter" class="input-field">
+          <i class="material-icons prefix">alternate_email</i>
+          <input id="autocomplete-input" class="autocomplete validate" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+          <label for="autocomplete-input">Votre email</label>
+        </form>
+        <p>En vous inscrivant à notre newsletter vous acceptez de recevoir des communications et offres marketing personnalisées par mail de notre part.</p>
+        <button class="waves-effect" type="submit" form="newsletter">S'inscrire</button>
+      </div>
+
+      <!-- <p class="copyright">Copyright LoSfizio</p> -->
 
     </footer>
-</body>
+    <!--FOOTER INDEX-->
+
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
 
 </html>

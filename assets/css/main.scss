@@ -1,1 +1,43 @@
+<<<<<<< HEAD
 @import "layout/header";
+=======
+///////////////
+//  vendors  //
+///////////////
+
+@import 'vendors/materialize.scss';
+
+////////////////
+//  abtracts  //
+////////////////
+
+@import 'abstracts/_variables.scss';
+
+////////////
+//  base  //
+////////////
+
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+@import 'base/_base.scss';
+
+//////////////
+//  layout  //
+//////////////
+
+@import 'layout/_nav.scss';
+@import 'layout/_gallery.scss';
+@import 'layout/_header.scss';
+@import 'layout/_body.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_carte.scss';
+@import 'layout/_contact.scss';
+
+//////////////////
+//  components  //
+//////////////////
+
+@import 'components/_practical.scss';
+@import 'components/_schedule.scss';
+@import 'components/_product.scss';
+>>>>>>> ced1c57716c0e6e03b861c3925bbd73a34146c78
