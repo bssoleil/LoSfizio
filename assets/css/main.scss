@@ -1,17 +1,15 @@
-<<<<<<< HEAD
-@import "layout/header";
-=======
+////////////////
+//  abtracts  //
+////////////////
+
+@import 'abstracts/_variables.scss';
+
 ///////////////
 //  vendors  //
 ///////////////
 
 @import 'vendors/materialize.scss';
 
-////////////////
-//  abtracts  //
-////////////////
-
-@import 'abstracts/_variables.scss';
 
 ////////////
 //  base  //
@@ -40,4 +38,3 @@
 @import 'components/_practical.scss';
 @import 'components/_schedule.scss';
 @import 'components/_product.scss';
->>>>>>> ced1c57716c0e6e03b861c3925bbd73a34146c78
