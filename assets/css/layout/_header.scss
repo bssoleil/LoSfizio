@@ -23,13 +23,8 @@
 
 .header-menu {
   @extend .header;
-  background-image: url("../images/carte.jpg");
+  background-image: url("../images/lacarte.jpg");
 
-  h1 {
-    color: #1d1d1d;
-    border-bottom: 0.1rem solid #1d1d1d;
-
-  }
 }
 
 .header-gallery {
@@ -40,13 +35,8 @@
 
 .header-contact {
   @extend .header;
-  background-image: url("../images/chef1.jpg");
-
-  h1 {
-    color: #1d1d1d;
-    border-bottom: 0.1rem solid #1d1d1d;
-
-  }
+  background-image: url("../images/contact.jpg");
+  background-position: center 70%;
 
 }
 

@@ -6546,19 +6546,14 @@ img {
     color: white; }
 
 .header-menu {
-  background-image: url("../images/carte.jpg"); }
-  .header-menu h1 {
-    color: #1d1d1d;
-    border-bottom: 0.1rem solid #1d1d1d; }
+  background-image: url("../images/lacarte.jpg"); }
 
 .header-gallery {
   background-image: url("../images/img-devanture.jpg"); }
 
 .header-contact {
-  background-image: url("../images/chef1.jpg"); }
-  .header-contact h1 {
-    color: #1d1d1d;
-    border-bottom: 0.1rem solid #1d1d1d; }
+  background-image: url("../images/contact.jpg");
+  background-position: center 70%; }
 
 .header__banner {
   height: 100vh;
