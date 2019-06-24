@@ -8351,8 +8351,8 @@ body {
 }
 .main-carte h2 {
   border-bottom: solid 0.1rem rgba(0, 0, 0, 0.2);
-  font-size: 4.5rem;
-  width: 30%;
+  font-size: 6rem;
+  width: 60%;
   margin: auto;
   margin-bottom: 3.5rem;
   color: #2D2D2D;
@@ -8370,7 +8370,7 @@ body {
 .main-carte .section-food-type .container-food-type__element-part h3 {
   color: #4a0515;
   text-align: left;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 0.5vw;
   margin-bottom: 0.5vw;
 }
@@ -8378,7 +8378,7 @@ body {
   color: #2D2D2D;
 }
 .main-carte .section-food-type .container-food-type__element-part p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: rgba(0, 0, 0, 0.7);
 }
 
