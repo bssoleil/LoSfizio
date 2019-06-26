@@ -17,6 +17,7 @@
 
   @media (max-width: 500px) {
     width: 90%;
+    margin-top: 15vw;
   }
 
   .about__title {
@@ -31,6 +32,7 @@
 
   @media (max-width: 500px) {
     width: 60%;
+    margin-bottom: 10vw;
   }
   }
 
@@ -41,6 +43,10 @@
     align-items: center;
     font-size: 1.7rem;
     padding: 3vw;
+
+  @media (max-width: 500px) {
+    margin-bottom: 15vw;
+  }
 
     .about__p {
       padding: 1vw;

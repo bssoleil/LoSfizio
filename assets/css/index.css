@@ -6727,7 +6727,8 @@ body {
   width: 60%; }
   @media (max-width: 500px) {
     .about__section {
-      width: 90%; } }
+      width: 90%;
+      margin-top: 15vw; } }
   .about__section .about__title {
     display: flex;
     flex-direction: column;
@@ -6739,7 +6740,8 @@ body {
     width: 30vw; }
     @media (max-width: 500px) {
       .about__section .about__title {
-        width: 60%; } }
+        width: 60%;
+        margin-bottom: 10vw; } }
   .about__section .about__text {
     display: flex;
     flex-direction: column;
@@ -6747,6 +6749,9 @@ body {
     align-items: center;
     font-size: 1.7rem;
     padding: 3vw; }
+    @media (max-width: 500px) {
+      .about__section .about__text {
+        margin-bottom: 15vw; } }
     .about__section .about__text .about__p {
       padding: 1vw; }
 
