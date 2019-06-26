@@ -20,9 +20,6 @@
     border-bottom: solid 0.1rem rgba(255, 255, 255, .2);
     color: white;
 
-    @media (max-width: 500px) {
-      width: 60%;
-    }
   }
 }
 
@@ -75,10 +72,6 @@
   width: 30%;
   color: rgba(255,255,255,0.7);
   border-bottom: solid 0.1rem rgba(255, 255, 255, .2);
-
-    @media (max-width: 500px) {
-      width: 60%;
-    }
 
 
 }
