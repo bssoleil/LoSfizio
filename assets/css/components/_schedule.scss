@@ -1,6 +1,8 @@
 .schedule__section {
-  height: 60vh;
-  margin-top: 10vw;
+  // height: 60vh;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  height: auto;
 
   .schedule__title {
     border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
@@ -19,14 +21,22 @@
     padding-top: 3rem;
 
     .schedule-day {
-      width: 9vw;
-      height: 9vw;
+      width: 14rem;
+      height: 14rem;
       display: flex;
       justify-content:center;
       align-items:center;
       flex-direction:column;
       margin: 1rem;
-      font-size:1.2vw;
+      font-size: 1.7rem;
+
+      @media screen and (max-width: 500px) {
+        &:hover {
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+                      0 3px 1px -2px rgba(0, 0, 0, 0.12), 
+                      0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+      }
     }
   }
 }
