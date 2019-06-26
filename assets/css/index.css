@@ -6544,6 +6544,9 @@ img {
     padding-bottom: 0.5rem;
     border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
     color: white; }
+    @media (max-width: 500px) {
+      .header h1, .header-menu h1, .header-gallery h1, .header-contact h1 {
+        width: 60%; } }
 
 .header-menu {
   background-image: url("../images/lacarte.jpg"); }
@@ -6579,6 +6582,9 @@ img {
   width: 30%;
   color: rgba(255, 255, 255, 0.7);
   border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2); }
+  @media (max-width: 500px) {
+    .h1__banner {
+      width: 60%; } }
 
 .p__banner {
   margin: auto;
