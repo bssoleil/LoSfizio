@@ -6794,7 +6794,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3); }
   @media (max-width: 500px) {
     .contact__map {
-      width: 90vw; } }
+      width: 100vw; } }
 
 .practical-info__section {
   margin-top: 10rem;
