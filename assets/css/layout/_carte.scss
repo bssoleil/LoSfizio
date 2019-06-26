@@ -14,6 +14,10 @@
     margin: auto;
     margin-bottom: 3.5rem;
     color: #2D2D2D;
+    
+        @media screen and (max-width: 500px) {
+          font-size: 5rem;
+        }
   }
 
   .section-food-type {
@@ -22,6 +26,11 @@
     padding: 3vw;
     width: 60%;
     border: solid 0.1rem #2D2D2D;
+
+    @media screen and (max-width: 500px) {
+      width: 90%;
+
+    }
 
     .container-food-type__element-part {
       text-align: left;
@@ -32,13 +41,22 @@
         font-size: 4rem;
         margin-top: 0.5vw;
         margin-bottom: .5vw;
+
+        @media screen and (max-width: 500px) {
+          font-size: 3.5rem;
+        }
       }
+
       span {
         color: #2D2D2D;
       }
       p {
         font-size: 2rem;
         color: rgba(0, 0, 0, .7);
+        
+        @media screen and (max-width: 500px) {
+          font-size: 1.5rem;
+        }
       }
     }
   }
