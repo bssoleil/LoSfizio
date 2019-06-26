@@ -6764,7 +6764,7 @@ body {
       width: 60vw; }
       @media (max-width: 500px) {
         .contact__section .contact__form fieldset {
-          width: 90vw; } }
+          width: 100vw; } }
       .contact__section .contact__form fieldset .input-field label {
         font-size: 1.7rem;
         color: #000000; }
@@ -6789,6 +6789,10 @@ body {
         display: flex;
         justify-content: center;
         padding-bottom: 2vw; }
+        @media (max-width: 500px) {
+          .contact__section .contact__form fieldset .contact__button {
+            padding-top: 10vw;
+            padding-bottom: 20vw; } }
         .contact__section .contact__form fieldset .contact__button .button__form {
           background-color: transparent;
           border: 1px solid #2d2d2d;
