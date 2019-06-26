@@ -8,23 +8,38 @@
     margin: auto;
     font-size: 5rem;
     width: 30%;
+
+    @media screen and (max-width: 500px) {
+      width: 60%;
+    }
   }
 
   .practical-info__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+
+    @media screen and (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+    }
 
     h3 {
       font-size: 4rem;
       border-bottom: solid 0.1rem rgba(0, 0, 0, .2);
     }
 
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.8rem;
-
-
     .practical-info__item {
       margin: auto;
+
+      @media screen and (max-width: 500px) {
+        padding: 3rem;
+      }
 
       .practical-info__detail-item {
         padding : 1rem;
