@@ -19,6 +19,7 @@
     padding-bottom: 0.5rem;
     border-bottom: solid 0.1rem rgba(255, 255, 255, .2);
     color: white;
+
   }
 }
 
@@ -72,6 +73,7 @@
   color: rgba(255,255,255,0.7);
   border-bottom: solid 0.1rem rgba(255, 255, 255, .2);
 
+
 }
 
 .p__banner {
@@ -93,11 +95,4 @@
     background-color: rgba(74,5,21, 0.5);
 
   }
-
-}
-@media (max-width: 420px) {
-  .button__banner {
-    width: 60vw;
-  }
-
 }

@@ -15,6 +15,10 @@
   align-items: center;
   width: 60%;
 
+  @media (max-width: 500px) {
+    width: 90%;
+  }
+
   .about__title {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,10 @@
     color: #2d2d2d;
     border-bottom: 1px solid #2d2d2d;
     width: 30vw;
+
+  @media (max-width: 500px) {
+    width: 60%;
+  }
   }
 
   .about__text {
@@ -50,10 +58,10 @@
 
     fieldset {
       width: 60vw;
-      // display: grid;
-      // grid-template-columns: auto auto;
-      // grid-template-rows: 16% 16% 16% 32% 1fr;
-      // grid-gap: 1rem;
+
+  @media (max-width: 500px) {
+    width: 90vw;
+  }
 
       .input-field {
 
@@ -103,6 +111,9 @@
           border: 1px solid #2d2d2d;
           color: #2d2d2d;
           width: 25vw;
+  @media (max-width: 500px) {
+    width: 40vw;
+  }
 
           &:hover {
             background-color: rgba(0, 0, 0, 0.1);
@@ -125,5 +136,10 @@
   display: flex;
   margin: auto auto 5vw auto;
   width: 61%;
-  border: 1px solid rgba(0, 0, 0, .3)
+  border: 1px solid rgba(0, 0, 0, .3);
+
+  @media (max-width: 500px) {
+    width: 90vw;
+  }
 }
+
