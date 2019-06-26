@@ -6725,7 +6725,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 60%; }
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     .about__section {
       width: 90%;
       margin-top: 15vw; } }
@@ -6738,7 +6738,7 @@ body {
     color: #2d2d2d;
     border-bottom: 1px solid #2d2d2d;
     width: 30vw; }
-    @media (max-width: 500px) {
+    @media screen and (max-width: 500px) {
       .about__section .about__title {
         width: 60%;
         margin-bottom: 10vw; } }
@@ -6749,7 +6749,7 @@ body {
     align-items: center;
     font-size: 1.7rem;
     padding: 3vw; }
-    @media (max-width: 500px) {
+    @media screen and (max-width: 500px) {
       .about__section .about__text {
         margin-bottom: 15vw; } }
     .about__section .about__text .about__p {
@@ -6762,7 +6762,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1); }
     .contact__section .contact__form fieldset {
       width: 60vw; }
-      @media (max-width: 500px) {
+      @media screen and (max-width: 500px) {
         .contact__section .contact__form fieldset {
           width: 100vw; } }
       .contact__section .contact__form fieldset .input-field label {
@@ -6789,7 +6789,7 @@ body {
         display: flex;
         justify-content: center;
         padding-bottom: 2vw; }
-        @media (max-width: 500px) {
+        @media screen and (max-width: 500px) {
           .contact__section .contact__form fieldset .contact__button {
             padding-top: 10vw;
             padding-bottom: 20vw; } }
@@ -6798,7 +6798,7 @@ body {
           border: 1px solid #2d2d2d;
           color: #2d2d2d;
           width: 25vw; }
-          @media (max-width: 500px) {
+          @media screen and (max-width: 500px) {
             .contact__section .contact__form fieldset .contact__button .button__form {
               width: 40vw; } }
           .contact__section .contact__form fieldset .contact__button .button__form:hover {
@@ -6813,7 +6813,7 @@ body {
   margin: auto auto 5vw auto;
   width: 61%;
   border: 1px solid rgba(0, 0, 0, 0.3); }
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     .contact__map {
       width: 100vw;
       margin: 0; } }
@@ -6902,6 +6902,24 @@ body {
     right: 5%;
     width: 50%;
     color: white; }
+  .product__section .product__title {
+    position: absolute;
+    text-align: right;
+    top: -4vw;
+    right: 6%;
+    font-size: 5rem; }
+    @media screen and (max-width: 500px) {
+      .product__section .product__title {
+        top: 10vh; } }
+  .product__section .product__description {
+    position: absolute;
+    top: 4vw;
+    right: 4%;
+    max-width: 30vw;
+    font-size: 1.7rem; }
+    @media screen and (max-width: 500px) {
+      .product__section .product__description {
+        display: none; } }
   .product__section a {
     position: absolute;
     top: 20rem;
@@ -6910,8 +6928,7 @@ body {
     border: 1px solid white; }
   .product__section .button__product {
     position: absolute;
-    width: 14vw;
-    top: 18rem;
+    top: 30vh;
     right: 6%;
     background-color: transparent;
     color: white;
@@ -6920,18 +6937,5 @@ body {
       background-color: transparent;
       box-shadow: 0.5rem 0.5rem 10rem black;
       background-color: rgba(74, 5, 21, 0.5); }
-  .product__section .product__title {
-    position: absolute;
-    text-align: right;
-    width: 14vw;
-    top: -4vw;
-    right: 6%;
-    font-size: 5rem; }
-  .product__section .product__description {
-    position: absolute;
-    top: 4vw;
-    right: 4%;
-    max-width: 30vw;
-    font-size: 1.7rem; }
 
 /*# sourceMappingURL=index.css.map */

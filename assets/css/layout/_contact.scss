@@ -15,7 +15,7 @@
   align-items: center;
   width: 60%;
 
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     width: 90%;
     margin-top: 15vw;
   }
@@ -30,7 +30,7 @@
     border-bottom: 1px solid #2d2d2d;
     width: 30vw;
 
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     width: 60%;
     margin-bottom: 10vw;
   }
@@ -44,7 +44,7 @@
     font-size: 1.7rem;
     padding: 3vw;
 
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     margin-bottom: 15vw;
   }
 
@@ -65,7 +65,7 @@
     fieldset {
       width: 60vw;
 
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     width: 100vw;
   }
 
@@ -112,7 +112,7 @@
         justify-content: center;
         padding-bottom: 2vw;
 
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     padding-top: 10vw;
     padding-bottom: 20vw;
   }
@@ -122,7 +122,7 @@
           border: 1px solid #2d2d2d;
           color: #2d2d2d;
           width: 25vw;
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     width: 40vw;
   }
 
@@ -149,7 +149,7 @@
   width: 61%;
   border: 1px solid rgba(0, 0, 0, .3);
 
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     width: 100vw;
     margin: 0;
   }
