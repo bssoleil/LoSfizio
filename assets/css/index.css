@@ -6682,7 +6682,7 @@ body {
     color: #2D2D2D; }
     @media screen and (max-width: 500px) {
       .main-carte h2 {
-        font-size: 5rem; } }
+        font-size: 4.5rem; } }
   .main-carte .section-food-type {
     margin-top: 5vw;
     margin-bottom: 5vw;
@@ -6697,7 +6697,7 @@ body {
       .main-carte .section-food-type .container-food-type__element-part h3 {
         color: #4a0515;
         text-align: left;
-        font-size: 4rem;
+        font-size: 3.8rem;
         margin-top: 0.5vw;
         margin-bottom: .5vw; }
         @media screen and (max-width: 500px) {
