@@ -6522,7 +6522,7 @@ img {
     @media screen and (max-width: 1024px) {
       .container-gallery .container-gallery__grid figure {
         width: 100vw;
-        height: 100vh; } }
+        height: 100vw; } }
   .container-gallery .container-gallery__grid img {
     object-fit: cover;
     width: 100%;
@@ -6533,6 +6533,9 @@ img {
     /* Animation */ }
   .container-gallery .container-gallery__grid img:hover {
     transform: scale(1.3); }
+    @media screen and (max-width: 1024px) {
+      .container-gallery .container-gallery__grid img:hover {
+        transform: none; } }
   @media screen and (max-width: 1024px) {
     .container-gallery .container-gallery__grid {
       grid-template-columns: 1fr;
@@ -6554,13 +6557,13 @@ img {
     color: white; }
 
 .header-menu {
-  background-image: url("../images/lacarte.jpg"); }
+  background-image: url("../images/lacarte-large.jpg"); }
 
 .header-gallery {
-  background-image: url("../images/img-devanture.jpg"); }
+  background-image: url("../images/gallery-large.jpg"); }
 
 .header-contact {
-  background-image: url("../images/contact.jpg");
+  background-image: url("../images/contact-large.jpg");
   background-position: center 70%; }
 
 .header__banner {
@@ -6575,7 +6578,7 @@ img {
   width: 100%;
   height: 100%;
   filter: brightness(40%);
-  background-image: url("../images/banner2.jpg");
+  background-image: url("../images/banner2-large.jpg");
   background-size: cover;
   background-position: center center;
   z-index: -1; }
@@ -6886,7 +6889,7 @@ body {
 .product__section {
   position: relative; }
   .product__section .product__image {
-    background-image: url(../images/gallery-9.jpg);
+    background-image: url(../images/product-large.jpg);
     display: block;
     width: 100%;
     height: 86vh;
