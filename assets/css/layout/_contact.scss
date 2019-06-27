@@ -1,6 +1,4 @@
 .container-contact {
-  // background-image: url('../images/aboutimage.jpg');
-  // background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +13,7 @@
   align-items: center;
   width: 60%;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1024px) {
     width: 90%;
     margin-top: 15vw;
   }
@@ -30,10 +28,10 @@
     border-bottom: 1px solid #2d2d2d;
     width: 30vw;
 
-  @media screen and (max-width: 500px) {
-    width: 60%;
-    margin-bottom: 10vw;
-  }
+    @media screen and (max-width: 1024px) {
+      width: 60%;
+      margin-bottom: 10vw;
+    }
   }
 
   .about__text {
@@ -44,9 +42,9 @@
     font-size: 1.7rem;
     padding: 3vw;
 
-  @media screen and (max-width: 500px) {
-    margin-bottom: 15vw;
-  }
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 15vw;
+    }
 
     .about__p {
       padding: 1vw;
@@ -65,9 +63,9 @@
     fieldset {
       width: 60vw;
 
-  @media screen and (max-width: 500px) {
-    width: 100vw;
-  }
+      @media screen and (max-width: 1024px) {
+        width: 100vw;
+      }
 
       .input-field {
 
@@ -112,19 +110,19 @@
         justify-content: center;
         padding-bottom: 2vw;
 
-  @media screen and (max-width: 500px) {
-    padding-top: 10vw;
-    padding-bottom: 20vw;
-  }
+        @media screen and (max-width: 1024px) {
+          padding-top: 10vw;
+          padding-bottom: 20vw;
+        }
 
         .button__form {
           background-color: transparent;
           border: 1px solid #2d2d2d;
           color: #2d2d2d;
           width: 25vw;
-  @media screen and (max-width: 500px) {
-    width: 40vw;
-  }
+          @media screen and (max-width: 1024px) {
+            width: 40vw;
+          }
 
           &:hover {
             background-color: rgba(0, 0, 0, 0.1);
@@ -149,7 +147,7 @@
   width: 61%;
   border: 1px solid rgba(0, 0, 0, .3);
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1024px) {
     width: 100vw;
     margin: 0;
   }
