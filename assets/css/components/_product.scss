@@ -28,12 +28,14 @@
   .product__title {
     position: absolute;
     text-align: right;
-    top: -4vw;
+    top: -4vh;
     right: 6%;
     font-size: 5rem;
 
     @media screen and (max-width: 500px) {
-      top: 10vh;
+      font-size: 4rem;
+      right: 1%;
+
     }
 
   }
@@ -42,11 +44,15 @@
     position: absolute;
     top: 4vw;
     right: 4%;
+    text-align: right;
     max-width: 30vw;
     font-size: 1.7rem;
 
     @media screen and (max-width: 500px) {
-      display: none;
+      font-size: 1.5rem;
+      top: 10vw;
+      right: 1%;
+
     }
 
   }
@@ -74,8 +80,11 @@
 
     }
 
+    @media screen and (max-width: 500px) {
+      top: 40vh;
+      right: 1%
+
+    }
   }
-
-
 }
 
