@@ -27,11 +27,27 @@
   @extend .header;
   background-image: url("../images/lacarte-large.jpg");
 
+  @media screen and (max-width: 1600px) {
+    background-image: url("../images/lacarte-medium.jpg");
+  }
+
+  @media screen and (max-width: 1024px) {
+    background-image: url("../images/lacarte-small.jpg");
+  }
+
 }
 
 .header-gallery {
   @extend .header;
   background-image: url("../images/gallery-large.jpg");
+
+  @media screen and (max-width: 1600px) {
+    background-image: url("../images/gallery-medium.jpg");
+  }
+
+  @media screen and (max-width: 1024px) {
+    background-image: url("../images/gallery-small.jpg");
+  }
 
 }
 
@@ -39,6 +55,14 @@
   @extend .header;
   background-image: url("../images/contact-large.jpg");
   background-position: center 70%;
+
+  @media screen and (max-width: 1600px) {
+    background-image: url("../images/contact-medium.jpg");
+  }
+
+  @media screen and (max-width: 1024px) {
+    background-image: url("../images/contact-small.jpg");
+  }
 
 }
 
@@ -64,6 +88,13 @@
   background-position: center center;
   z-index: -1;
 
+  @media screen and (max-width: 1600px) {
+    background-image: url("../images/banner2-medium.jpg");
+  }
+
+  @media screen and (max-width: 1024px) {
+    background-image: url("../images/banner2-small.jpg");
+  }
 }
 .h1__banner {
   font-size: 5rem;
