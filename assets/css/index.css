@@ -6554,13 +6554,13 @@ img {
     color: white; }
 
 .header-menu {
-  background-image: url("../images/lacarte.jpg"); }
+  background-image: url("../images/lacarte-large.jpg"); }
 
 .header-gallery {
   background-image: url("../images/gallery-large.jpg"); }
 
 .header-contact {
-  background-image: url("../images/contact.jpg");
+  background-image: url("../images/contact-large.jpg");
   background-position: center 70%; }
 
 .header__banner {
