@@ -23,20 +23,23 @@
   .product__info {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     position: absolute;
-    top: 30%;
-    right: 5%;
+    bottom: 0;
+    right: 0;
     color: white;
     width: 60%;
+    height: 60%;
 
   }
 
   .product__title {
     display: inline-block;
-    margin-left: auto;
-    text-align: right;
     font-size: 5rem;
-    width: 40%;
+    width: 60%;
+    text-align: right;
+    margin-left: 12%;
 
     @media screen and (max-width: 1024px) {
       font-size: 4rem;
@@ -47,9 +50,8 @@
 
   .product__description {
     display: inline-block;
-    margin-left: auto;
-    padding: 10% 0 10% 50%;
     text-align: right;
+    margin-right: 10%;
     font-size: 1.7rem;
 
     @media screen and (max-width: 1024px) {
@@ -66,8 +68,8 @@
 
   .button__product {
     display: inline-block;
-    margin-left: auto;
     width: 80%;
+    margin-right: 22%;
     max-width: 30rem;
     background-color: transparent;
     color: white;
