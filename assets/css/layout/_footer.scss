@@ -17,6 +17,12 @@
     justify-content: flex-start;
     align-items: flex-start;
 
+
+    @media screen and (max-width: 1024px) {
+      width: 70%;
+      margin: 3rem;
+    }
+
     p, a {
       color: white;
       text-decoration: none;
@@ -37,6 +43,7 @@
       margin-bottom: 1rem;
     }
   }
+
 
   .footer__schedule {
     @extend .footer__address;
@@ -76,6 +83,10 @@
         background-color: rgba(74,5,21, 0.5);
 
       }
+
+      @media screen and (max-width: 1024px) {
+        margin-bottom: 7rem;
+      }
     }
 
     label {
@@ -89,5 +100,17 @@
     i {
       padding-top: .5rem;
     }
+
+    
   }
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: auto;
+  }
+
 }
+
