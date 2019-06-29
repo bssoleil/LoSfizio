@@ -38,7 +38,6 @@ function setActiveDay() {
   let date = new Date();
   let actualDate = date.getDay();
   let actualHours = date.getHours();
-  console.log(actualDate);
   let schedule = document.getElementsByClassName('schedule-day')[actualDate - 1];
 
   if (schedule) {toggleTextRed(schedule)};
