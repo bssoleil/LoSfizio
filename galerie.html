@@ -71,69 +71,72 @@
         </section>
       </main>
 
-      <footer class="footer">
-        <div class="footer__address">
-          <h2 class="footer__h2">Adresse</h2>
-          <p>146 rue du Faubourg Saint-Antoine</p>
-          <p>75012 PARIS</p>
-          <a href="tel:+33143473035">01.43.47.30.35</a>
-          <a href="mailto:pizzeria@losfizio.fr">pizzeria@losfizio.fr</a>
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="footer__address">
+        <h2 class="footer__h2">Adresse</h2>
+        <p>146 rue du Faubourg Saint-Antoine</p>
+        <p>75012 PARIS</p>
+        <a href="tel:+33143473035">01.43.47.30.35</a>
+        <a href="mailto:pizzeria@losfizio.fr">pizzeria@losfizio.fr</a>
 
-          <ul class="footer__address-social">
-            <li>
-              <a href="">
-                <img src="assets/images/facebook.svg" alt="logo facebook"/>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="assets/images/twitter.png" alt="logo twitter"/>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="assets/images/instagram.svg" alt="logo instagram"/>
-              </a>
-            </li>
+        <ul class="footer__address-social">
+          <li>
+            <a href="">
+              <img src="assets/images/facebook.svg" alt="logo facebook"/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/images/twitter.png" alt="logo twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/images/instagram.svg" alt="logo instagram"/>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="legals">
+          <a href="https://icons8.com/icon/118500/facebook-nouveau">icon by Icons8</a>
+        </ul>
+      </div>
+
+      <div class="footer__schedule">
+        <h2 class="footer__h2">Horaires</h2>
+        <section class="footer__schedule__days">
+          <ul>
+            <h3>Aujourd'hui</h3>
+            <p class="footer-actual-day__opening">Ouvert / fermé</p>
+            <p class="footer-actual-day__closed">Ferme à 18h</p>
+            <p class="footer-actual-day__opened">Ouvre à 09h</p>
           </ul>
-
-          <ul class="legals">
-            <a href="https://icons8.com/icon/118500/facebook-nouveau">icon by Icons8</a>
+          <ul>
+            <h3>Demain</h3>
+            <p class="footer-tomorrow-day__opening">Ouvert / fermé</p>
+            <p class="footer-tomorrow-day__closed">Ferme à 18h</p>
+            <p class="footer-tomorrow-day__opened">Ouvre à 09h</p>
           </ul>
-        </div>
+        </section>
+      </div>
 
-        <div class="footer__schedule">
-          <h2 class="footer__h2">Horaires</h2>
-          <section class="footer__schedule__days">
-            <ul>
-              <h3>Aujourd'hui</h3>
-              <p>Ouvert / fermé</p>
-              <p>Ferme à 18h</p>
-              <p>Ouvre à 09h</p>
-            </ul>
-            <ul>
-              <h3>Demain</h3>
-              <p>Ouvert / fermé</p>
-              <p>Ferme à 18h</p>
-              <p>Ouvre à 09h</p>
-            </ul>
-          </section>
-        </div>
+      <div class="footer__newsletter">
+        <h2 class="footer__h2">Newsletter</h2>
+        <form id="newsletter" class="input-field">
+          <i class="material-icons prefix">alternate_email</i>
+          <input id="autocomplete-input" class="autocomplete validate" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+          <label for="autocomplete-input">Votre email</label>
+        </form>
+        <p>En vous inscrivant à notre newsletter vous acceptez de recevoir des communications et offres marketing personnalisées par mail de notre part.</p>
+        <button class="waves-effect" type="submit" form="newsletter">S'inscrire</button>
+      </div>
 
-        <div class="footer__newsletter">
-          <h2 class="footer__h2">Newsletter</h2>
-          <form id="newsletter" class="input-field">
-            <i class="material-icons prefix">alternate_email</i>
-            <input id="autocomplete-input" class="autocomplete validate" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-            <label for="autocomplete-input">Votre email</label>
-          </form>
-          <p>En vous inscrivant à notre newsletter vous acceptez de recevoir des communications et offres marketing personnalisées par mail de notre part.</p>
-          <button class="waves-effect" type="submit" form="newsletter">S'inscrire</button>
-        </div>
+      <!-- <p class="copyright">Copyright LoSfizio</p> -->
 
-        <!-- <p class="copyright">Copyright LoSfizio</p> -->
+    </footer>
+    <!--FOOTER-->
 
-      </footer>
       <script type="text/javascript" src="assets/js/materialize.js"></script>
       <script charset="utf-8">
         $(document).ready(function(){
