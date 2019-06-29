@@ -125,6 +125,10 @@
   width: 30vw;
   color: white;
 
+  @media screen and (max-width: 1024px) {
+    width: 70%;
+  }
+
   &:hover {
     background-color: transparent;
     box-shadow: 0.5rem 0.5rem 10rem black;
