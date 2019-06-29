@@ -7,9 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <title>La carte</title>
   </head>
   <body>
+
+    <!-- NAVBAR MOBILE -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="link-logo brand-logo" href="index.html"><img class="logo-losfizio" src="assets/images/whitelogo.png" alt="logo losfizio"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
+      <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
+      <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
+      <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- NAVBAR MOBILE -->
+
+    <!-- NAVBAR PC -->
     <nav class="nav z-depth-3">
       <ul class="nav__ul">
         <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
@@ -21,6 +44,7 @@
         <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <!-- NAVBAR PC -->
 
     <!-- Header -->
     <header class="header header-menu">
@@ -33,18 +57,6 @@
     <!-- main -->
     <main class="main-carte">
 
-      <!-- Command panel -->
-      <!-- <aside class="commnand-panel"> -->
-      <!--   <h2>Votre command</h2> -->
-      <!--   <div class="command-element"> -->
-      <!--     <p>1 x Champignon</p> -->
-      <!--     <p>2 x Piquant</p> -->
-      <!--   </div> -->
-      <!--   <p>Total : 30€</p> -->
-      <!--   <button>Valider</button> -->
-      <!-- </aside> -->
-      <!-- Command panel -->
-
       <!-- News and best -->
       <section class="section-food-type">
         <h2>News and best</h2>
@@ -53,18 +65,10 @@
             <h3 class="element">Classique <span>- 10€</span></h3>
             <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
           </div>
-          <!-- <div class="container-food-type__adding-part"> -->
-          <!--   <input type="number" name="" id="" value=""> -->
-          <!--   <button>Ajouter</button> -->
-          <!-- </div> -->
           <div class="container-food-type__element-part">
             <h3 class="element">Piquant <span>- 10€</span></h3>
             <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
           </div>
-          <!-- <div class="container-food-type__adding-part"> -->
-          <!--   <input type="number" name="" id="" value=""> -->
-          <!--   <button>Ajouter</button> -->
-          <!-- </div> -->
           <div class="container-food-type__element-part">
             <h3 class="element">Classique <span>- 10€</span></h3>
             <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
@@ -93,18 +97,10 @@
             <h3 class="element">Poisson <span>- 10€</span></h3>
             <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
           </div>
-          <!-- <div class="container-food-type__adding-part"> -->
-          <!--   <input type="number" name="" id="" value=""> -->
-          <!--   <button>Ajouter</button> -->
-          <!-- </div> -->
           <div class="container-food-type__element-part">
             <h3 class="element">Champignon <span>- 10€</span></h3>
             <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
           </div>
-          <!-- <div class="container-food-type__adding-part"> -->
-          <!--   <input type="number" name="" id="" value=""> -->
-          <!--   <button>Ajouter</button> -->
-          <!-- </div> -->
           <div class="container-food-type__element-part">
             <h3 class="element">Classique <span>- 10€</span></h3>
             <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
@@ -194,6 +190,11 @@
     <!-- Footer -->
 
     <script type="text/javascript" src="../assets/js/materialize.js"></script>
+    <script charset="utf-8">
+      $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+    </script>
 
   </body>
 

@@ -8178,6 +8178,10 @@ img {
   color: #ffffff;
 }
 
+.navbar-fixed {
+  position: absolute;
+  top: 0;
+}
 @media screen and (min-width: 980px) {
   .navbar-fixed {
     display: none;
