@@ -8187,6 +8187,14 @@ img {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.sidenav {
+  background-color: #2D2D2D;
+}
+.sidenav li > a {
+  color: #d1d1d1;
+  font-size: 1.6rem;
+}
+
 .container-gallery .container-gallery__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
