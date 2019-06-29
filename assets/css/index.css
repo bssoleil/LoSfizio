@@ -8269,6 +8269,11 @@ img {
   border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
   color: white;
 }
+@media screen and (max-width: 1024px) {
+  .header h1, .header-contact h1, .header-gallery h1, .header-menu h1 {
+    width: 90%;
+  }
+}
 
 .header-menu {
   background-image: url("../images/lacarte-large.jpg");
@@ -8349,6 +8354,11 @@ img {
   width: 30%;
   color: rgba(255, 255, 255, 0.7);
   border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
+}
+@media screen and (max-width: 1024px) {
+  .h1__banner {
+    width: 90%;
+  }
 }
 
 .p__banner {
