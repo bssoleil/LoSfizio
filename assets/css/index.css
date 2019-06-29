@@ -8169,7 +8169,6 @@ img {
 }
 .nav .nav__ul .logo-losfizio {
   margin-top: 2rem;
-  object-fit: scale-down;
   max-width: 18rem;
   filter: drop-shadow(3px 3px 2px black);
 }
@@ -8189,6 +8188,11 @@ img {
 }
 .navbar-fixed nav {
   background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-fixed nav .nav-wrapper .logo-losfizio-mobile {
+  width: 18rem;
+  margin-top: 2rem;
+  filter: drop-shadow(3px 3px 2px black);
 }
 
 .sidenav {
