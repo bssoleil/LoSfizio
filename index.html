@@ -7,12 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <title>Accueil</title>
   </head>
 
   <body>
 
-    <!--HEADER INDEX-->
+    <!-- NAVBAR MOBILE -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="link-logo brand-logo" href="index.html"><img class="logo-losfizio" src="assets/images/whitelogo.png" alt="logo losfizio"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
+      <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
+      <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
+      <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- NAVBAR MOBILE -->
+
+    <!-- NAVBAR PC -->
     <nav class="nav z-depth-3">
       <ul class="nav__ul">
         <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
@@ -24,7 +45,9 @@
         <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <!-- NAVBAR PC -->
 
+    <!--HEADER INDEX-->
     <header class="row center-align header__banner">
       <h1 class="h1__banner">La Meilleur Pizza</h1>
       <p class="p__banner">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
@@ -35,95 +58,95 @@
     <!--CONTAINER INDEX-->
     <main class="container-index">
 
-    <!--SCHEDULE SECTION-->
-    <section class="schedule__section">
-      <h2 class="schedule__title">Horaires</h2>
-      <ul class="schedule__list">
-        <li class="schedule-day day1 z-depth-1 hoverable">
-          <p class="day-title">Lundi</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
+      <!--SCHEDULE SECTION-->
+      <section class="schedule__section">
+        <h2 class="schedule__title">Horaires</h2>
+        <ul class="schedule__list">
+          <li class="schedule-day day1 z-depth-1 hoverable">
+            <p class="day-title">Lundi</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
 
-        <li class="schedule-day day2 z-depth-1 hoverable">
-          <p class="day-title">Mardi</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
-        <li class="schedule-day day3 z-depth-1 hoverable">
-          <p class="day-title">Mercredi</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
-        <li class="schedule-day day4 z-depth-1 hoverable">
-          <p class="day-title">Jeudi</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
-        <li class="schedule-day day5 z-depth-1 hoverable">
-          <p class="day-title">Vendredi</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
-        <li class="schedule-day day6 z-depth-1 hoverable">
-          <p class="day-title">Samedi</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
-        <li class="schedule-day day7 z-depth-1 hoverable">
-          <p class="day-title">Dimanche</p>
-          <p>09h-12h</p>
-          <p>14h-18h</p>
-        </li>
-      </ul>
-    </section>
-    <!--SCHEDULE SECTION-->
+          <li class="schedule-day day2 z-depth-1 hoverable">
+            <p class="day-title">Mardi</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
+          <li class="schedule-day day3 z-depth-1 hoverable">
+            <p class="day-title">Mercredi</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
+          <li class="schedule-day day4 z-depth-1 hoverable">
+            <p class="day-title">Jeudi</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
+          <li class="schedule-day day5 z-depth-1 hoverable">
+            <p class="day-title">Vendredi</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
+          <li class="schedule-day day6 z-depth-1 hoverable">
+            <p class="day-title">Samedi</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
+          <li class="schedule-day day7 z-depth-1 hoverable">
+            <p class="day-title">Dimanche</p>
+            <p>09h-12h</p>
+            <p>14h-18h</p>
+          </li>
+        </ul>
+      </section>
+      <!--SCHEDULE SECTION-->
 
-    <!--PRODUCT SECTION-->
-    <section class="product__section">
+      <!--PRODUCT SECTION-->
+      <section class="product__section">
 
-      <div class="product__image">
-        <img src="assets/images/triangle.png" alt="Image Pizza">
-      </div>
+        <div class="product__image">
+          <img src="assets/images/triangle.png" alt="Image Pizza">
+        </div>
 
-      <div class="product__info">
-        <h2 class="product__title">Product</h2>
-        <p class="product__description">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-        <!-- <a class="btn-floating"><img src="./assets/images/whitepoint.png"></a> -->
-        <a class="waves-effect waves-dark btn-flat btn-large hoverable button__product" src="./carte.html">Voir la Carte</a>
-      </div>
+        <div class="product__info">
+          <h2 class="product__title">Product</h2>
+          <p class="product__description">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <!-- <a class="btn-floating"><img src="./assets/images/whitepoint.png"></a> -->
+          <a class="waves-effect waves-dark btn-flat btn-large hoverable button__product" src="./carte.html">Voir la Carte</a>
+        </div>
 
-    </section>
-    <!--PRODUCT SECTION-->
+      </section>
+      <!--PRODUCT SECTION-->
 
-    <!--PRACTICAL INFO SECTION-->
-    <section class="practical-info__section">
-      <h2 class="practical-info__title">Infos Pratiques</h2>
-      <ul class="practical-info__list">
-        <li class="practical-info__item">
-          <h3>Cuisine</h3>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-        </li>
-        <li class="practical-info__item">
-          <h3>Services</h3>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-        </li>
+      <!--PRACTICAL INFO SECTION-->
+      <section class="practical-info__section">
+        <h2 class="practical-info__title">Infos Pratiques</h2>
+        <ul class="practical-info__list">
+          <li class="practical-info__item">
+            <h3>Cuisine</h3>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+          </li>
+          <li class="practical-info__item">
+            <h3>Services</h3>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+          </li>
 
-        <li class="practical-info__item">
-          <h3>Paiements</h3>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-          <p class="practical-info__detail-item">Lorem ipsum</p>
-        </li>
+          <li class="practical-info__item">
+            <h3>Paiements</h3>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+            <p class="practical-info__detail-item">Lorem ipsum</p>
+          </li>
 
-      </ul>
+        </ul>
 
-    </section>
-    <!--PRACTICAL INFO SECTION-->
+      </section>
+      <!--PRACTICAL INFO SECTION-->
 
     </main>
     <!--CONTAINER INDEX-->
@@ -196,6 +219,11 @@
 
     <script type="text/javascript" src="assets/js/materialize.js"></script>
     <script type="module" src="assets/js/index.js"></script>
+    <script charset="utf-8">
+      $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+    </script>
   </body>
 
 </html>
