@@ -8404,6 +8404,11 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 1024px) {
+  .footer .footer__schedule .footer__schedule__days, .footer .footer__newsletter .footer__schedule__days {
+    margin-top: 2rem;
+  }
+}
 .footer .footer__newsletter {
   align-items: center;
 }
