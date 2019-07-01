@@ -6541,6 +6541,7 @@ img {
   .sidenav .border-bottom {
     border-bottom: 1px solid rgba(209, 209, 209, 0.5); }
   .sidenav li > ul.footer__address-social {
+    margin-top: 3rem;
     display: flex;
     justify-content: center; }
   .sidenav li > ul.footer__address-social > li > a {
