@@ -90,7 +90,7 @@
     z-index: -1;
   }
 
-  .h1__banner {
+  h1 {
     font-size: 5rem;
     padding-top: 30vh;
     margin: auto;
@@ -103,14 +103,14 @@
     }
   }
 
-  .p__banner {
+  p {
     margin: auto;
     padding-top: 2rem;
     font-size: 1.7rem;
     color: rgba(255,255,255,0.7);
   }
 
-  .button__banner {
+  a {
     border: 1px solid $white;
     margin-top: 10vw;
     width: 30vw;
