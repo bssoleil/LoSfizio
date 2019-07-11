@@ -1,224 +1,430 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=u, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"></script>
-    <title>La carte</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=u, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <title>La carte</title>
+</head>
 
-    <!-- NAVBAR MOBILE -->
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <a class="link-logo brand-logo" href="index.html"><img class="logo-losfizio-mobile" src="assets/images/whitelogo.png" alt="logo losfizio"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-    </div>
-    <ul class="sidenav" id="mobile-demo">
+<body>
+
+  <!-- NAVBAR MOBILE -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a class="link-logo brand-logo" href="index.html"><img class="logo-losfizio-mobile"
+            src="assets/images/whitelogo.png" alt="logo losfizio"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobile-demo">
+    <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
+    <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
+    <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
+    <li class="nav__ul__li border-bottom"><a href="contact.html">Contact</a></li>
+    <li>
+      <ul class="footer__address-social">
+        <li>
+          <a href="">
+            <img src="assets/images/facebook.svg" alt="logo facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/images/twitter.png" alt="logo twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/images/instagram.svg" alt="logo instagram" />
+          </a>
+        </li>
+      </ul>
+
+
+    </li>
+  </ul>
+
+  <!-- NAVBAR MOBILE -->
+
+  <!-- NAVBAR PC -->
+  <nav class="nav z-depth-3">
+    <ul class="nav__ul">
       <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
       <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
-      <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
-      <li class="nav__ul__li border-bottom"><a href="contact.html">Contact</a></li>
-      <li>
-        <ul class="footer__address-social">
-          <li>
-            <a href="">
-              <img src="assets/images/facebook.svg" alt="logo facebook"/>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="assets/images/twitter.png" alt="logo twitter"/>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="assets/images/instagram.svg" alt="logo instagram"/>
-            </a>
-          </li>
-        </ul>
-
-      
+      <li class="nav__ul__li">
+        <a class="link-logo" href="index.html"><img class="logo-losfizio" src="assets/images/whitelogo.png"
+            alt="logo losfizio"></a>
       </li>
+      <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
+      <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
     </ul>
+  </nav>
+  <!-- NAVBAR PC -->
 
-    <!-- NAVBAR MOBILE -->
-    
-    <!-- NAVBAR PC -->
-    <nav class="nav z-depth-3">
-      <ul class="nav__ul">
-        <li class="nav__ul__li"><a href="index.html">Accueil</a></li>
-        <li class="nav__ul__li"><a href="carte.html">La Carte</a></li>
-        <li class="nav__ul__li">
-          <a class="link-logo" href="index.html"><img class="logo-losfizio" src="assets/images/whitelogo.png" alt="logo losfizio"></a>
-        </li>
-        <li class="nav__ul__li"><a href="galerie.html">Galerie</a></li>
-        <li class="nav__ul__li"><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- NAVBAR PC -->
+  <!-- Header -->
+  <header class="header header-menu">
 
-    <!-- Header -->
-    <header class="header header-menu">
+    <h1>La Carte</h1>
 
-      <h1>La Carte</h1>
+  </header>
+  <!-- Header -->
 
-    </header>
-    <!-- Header -->
+  <!-- main -->
+  <main class="main-carte">
 
-    <!-- main -->
-    <main class="main-carte">
+    <!-- Antipasti -->
+    <section class="section-food-type">
+      <h2>Antipasti</h2>
+      <article class="container-food-type">
+        <div class="container-food-type__element-part">
+          <h3 class="element">Arancino Rosso <span>- 4,50€</span></h3>
+          <p class="element__desc">Viande, Sauce Tomate.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Arancino Bianco <span>- 4,50€</span></h3>
+          <p class="element__desc">Fromage.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Mini-Mozzarelle Panées <span>- 4,50€</span></h3>
+          <p class="element__desc">Fromage.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Mozzarella Di Bufala <span>- 7€</span></h3>
+          <p class="element__desc">Fromage.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Burrata <span>- 7€</span></h3>
+          <p class="element__desc">Fromage.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Assiette Saucisson Piquant Spianata & Provola Fumée <span>- 12€</span></h3>
+          <p class="element__desc">Saucisson Piquant Spianata, Provola Fumée.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Assiette Jambon De Parme 18 Mois & Mozzarella Di Bufala <span>- 12€</span></h3>
+          <p class="element__desc">Jambon de Parme 18 mois, Fromage Mozzarella.</p>
+        </div>
+      </article>
+    </section>
+    <!-- Antipasti -->
 
-      <!-- News and best -->
-      <section class="section-food-type">
-        <h2>Antipasti</h2>
+    <!-- Taglieri -->
+    <section class="section-food-type">
+      <h2>Taglieri * planches</h2>
+      <article class="container-food-type">
+        <div class="container-food-type__element-part">
+          <h3 class="element">Légumes Grillés <span>- 15€</span></h3>
+          <p class="element__desc">Poivrons Grillés, Artichauts à la Romaine, Aubergines Grillées, Courgettes Grillées,
+            Tomates Séchées, Caprons.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Charcuteries Italiennes <span>- 17€</span></h3>
+          <p class="element__desc">Jambon de Parme 18 mois, Saucisson Piquant Spianata, Mortadelle Bologne, Jambon Rôti
+            Aux Herbes.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Fromages <span>- 16€</span></h3>
+          <p class="element__desc">Mozzarella Di Bufala, Provolone Piquant, Scamorza Fumée, Parmesan.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Di Mare <span>- 19€</span></h3>
+          <p class="element__desc">Seiches Marinées, Anchois Marinés, Poulpe À l'Huile, Piments Farcis Au Thon.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Antipasto Misto ** <span>- 27€</span></h3>
+          <p class="element__desc">Charcuteries, Fromages, Poulpe À l'Huile, Seiches Marinées, Légumes Grillés.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Informations <span>*</span></h3>
+          <p class="element__desc">* Accompgnées De Pain Pizza Fait Maison Et Petite Salade De Roquette.</p>
+          <p class="element__desc">** Pour 2 Personnes. </p>
+        </div>
+      </article>
+    </section>
+    <!-- Taglieri -->
+
+    <!-- Pizza Napoletana -->
+    <section class="section-food-type">
+      <h2>Pizza Napoletana *</h2>
+      <article class="container-food-type">
+        <div class="container-food-type__element-part">
+          <h3 class="element">Marinara <span>- 10€</span></h3>
+          <p class="element__desc">Sauce Tomate, Ail, Origan, Huile d'Holive.</p>
+        </div>
         <article class="container-food-type">
           <div class="container-food-type__element-part">
-            <h3 class="element">Arancino Rosso <span>- 4,50€</span></h3>
-            <p class="element__desc">Viande, Sauce Tomate.</p>
+            <h3 class="element">Margherita <span>- 11€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Fior Di Latte, Basilic, Huile d'olive.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Arancino Bianco <span>- 4,50€</span></h3>
-            <p class="element__desc">Fromage.</p>
+            <h3 class="element">Napoletana <span>- 14€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Di Bufala, Olives Noires, Anchois, Câpres, Basilic, Huile
+              d'olive.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Mini-Mozzarelle Panées <span>- 4,50€</span></h3>
-            <p class="element__desc">Fromage.</p>
+            <h3 class="element">Norma <span>- 15€</span></h3>
+            <p class="element__desc">Sauce Tomate, Aubergines, Ricotta, Provola Fumée, Parmesan, Basilic, Huile d'Olive.
+            </p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Mozzarella Di Bufala <span>- 7€</span></h3>
-            <p class="element__desc">Fromage.</p>
+            <h3 class="element">Di Parma <span>- 15€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Fior Di Latte, Jambon De Parme 18 Mois, Roquette,
+              Parmesan.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Burrata <span>- 7€</span></h3>
-            <p class="element__desc">Fromage.</p>
+            <h3 class="element">4 Formaggi <span>- 17€</span></h3>
+            <p class="element__desc">Ricotta, Gorgonzola, Provola Fumée, Parmesan, Roquette, Huile Truffée.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Assiette Saucisson Piquant Spianata & Provola Fumée <span>- 12€</span></h3>
-            <p class="element__desc">Saucisson Piquant Spianata, Provola Fumée.</p>
+            <h3 class="element">Calzone Farcito <span>- 16€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Fior Di Latte, Ricotta, Poivre, Saucisson Piquant
+              Spianata, Basilic, Huile d'Olive.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Assiette Jambon De Parme 18 Mois & Mozzarella Di Bufala <span>- 12€</span></h3>
-            <p class="element__desc">Jambon de Parme 18 mois, Fromage Mozzarella.</p>
-          </div>
-        </article>
-      </section>
-      <!-- News and best -->
-
-      <!-- Végétatien  -->
-      <section class="section-food-type">
-        <h2>Végétarien</h2>
-        <article class="container-food-type">
-          <div class="container-food-type__element-part">
-            <h3 class="element">Poisson <span>- 10€</span></h3>
-            <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
+            <h3 class="element">Bufalina <span>- 15€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Fior Di Latte, Mozzarella Di Bufala, Roquette, Tomates
+              Cerise, Olives Noires, Huile d'Olive.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Champignon <span>- 10€</span></h3>
-            <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
+            <h3 class="element">Nduja <span>- 16€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Fior Di Latte, Saucisson Calabrais, Nduja, Olives Noires,
+              Basilic.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Classique <span>- 10€</span></h3>
-            <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
+            <h3 class="element">Tropeana <span>- 16€</span></h3>
+            <p class="element__desc">Sauce Tomate, Mozzarella Fior Di Latte, Thon à l'Huile, Oignon Rouge, Olives
+              Noires, Origan.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Classique <span>- 10€</span></h3>
-            <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
+            <h3 class="element">Francesca <span>- 15€</span></h3>
+            <p class="element__desc">Fromage Stracchino, Speck, Brie, Basilic, Huile d'Olive.</p>
           </div>
           <div class="container-food-type__element-part">
-            <h3 class="element">Classique <span>- 10€</span></h3>
-            <p class="element__desc">Adipisicing impedit accusamus laborum accusamus tempore Dolores facere deleniti nobis</p>
+            <h3 class="element">Ortolana <span>- 16€</span></h3>
+            <p class="element__desc">Fromage Stracchino, Aubergines, Courgettes, Poivrons, Olives Noires, Parmesan, Ail,
+              Persil.</p>
+          </div>
+          <div class="container-food-type__element-part">
+            <h3 class="element">Valtellina <span>- 17€</span></h3>
+            <p class="element__desc">Fromage Stracchino, Roquette, Stracciatella Di Burrata, Bresaola Punta d'Anca,
+              Huile d'Olive, Jus De Citron.</p>
+          </div>
+          <div class="container-food-type__element-part">
+            <h3 class="element">Affumicata <span>- 19€</span></h3>
+            <p class="element__desc">Crème D'Asperges, Speck, Scamorza Fumée, Stracciatella Di Burrata, Cèpes Émincées,
+              Parmesan, Huile Truffée.</p>
+          </div>
+          <div class="container-food-type__element-part">
+            <h3 class="element">Bianca <span>- 16€</span></h3>
+            <p class="element__desc">Ricotta, Poivre, Mozzarella Fior Di Latte, Artichauts, Tomates Séchées, Origan.</p>
+          </div>
+          <div class="container-food-type__element-part">
+            <h3 class="element">La Sfiziosa </h3>
+            <p class="element__desc">Selon L'Humeur Du Pizzaiolo.</p>
           </div>
           <div class="container-food-type__element-part">
             <h3 class="element">Informations <span>*</span></h3>
-            <p class="element__desc">*pâtes bio vegan lgbt+</p>
+            <p class="element__desc">* Pizza Napoletana Fatta Con Un Impasto Artigianale.</p>
+            <p class="element__desc">* Pizza Napolitaine Faite Avec Un Pétrissage Artisanal. </p>
           </div>
         </article>
-        <!-- Végétatien  -->
+    </section>
+    <!-- Pizza Napoletana -->
 
-    </main>
-    <!-- main -->
+    <!-- Salades -->
+    <section class="section-food-type">
+      <h2>Salades *</h2>
+      <article class="container-food-type">
+        <div class="container-food-type__element-part">
+          <h3 class="element">Caprese <span>- 13€</span></h3>
+          <p class="element__desc">Tomate, Mozzarella Di Bufala, Olives Noires, Basilic, Huile d'olive.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Lombarda <span>- 16€</span></h3>
+          <p class="element__desc">Laitue Iceberg, Roquette, Bresaola Punta d'Anca, Tomates Cerise, Tomates Séchées,
+            Parmesan, Jus De Citron.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Mediterranea <span>- 17€</span></h3>
+          <p class="element__desc">Laitue Iceberg, Thon À L'Huile, Seiches Marinées, Tomates Cerise, Oignon, Câpres,
+            Origan.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Informations <span>*</span></h3>
+          <p class="element__desc">* Accompgnées De Pain Pizza Fait Maison.</p>
+        </div>
+      </article>
+    </section>
+    <!-- Salades -->
 
-    <!--FOOTER-->
-    <footer class="footer">
-      <div class="footer__address">
-        <h2 class="footer__h2">Adresse</h2>
-        <p>146 rue du Faubourg Saint-Antoine</p>
-        <p>75012 PARIS</p>
-        <a href="tel:+33143473035">01.43.47.30.35</a>
-        <a href="mailto:pizzeria@losfizio.fr">pizzeria@losfizio.fr</a>
+    <!-- Desserts -->
+    <section class="section-food-type">
+      <h2>Desserts </h2>
+      <article class="container-food-type">
+        <div class="container-food-type__element-part">
+          <h3 class="element">Tarte Citron <span>- 6€</span></h3>
+          <p class="element__desc">Pignons & Amandes.</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Tiramisu <span>- 6€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Pastiera <span>- 6€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Glace <span>- 6€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Flute Limoncello <span>- 7€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Pizza Nutella <span>- 6€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Café Gourmand <span>- 8€</span></h3>
+          <p class="element__desc">(Café, 1 Mini Cannolo, 1 Mini Baba Au Rhum, 1 Boule De Glace).</p>
+        </div>
+      </article>
+    </section>
+    <!-- Desserts -->
 
-        <ul class="footer__address-social">
-          <li>
-            <a href="">
-              <img src="assets/images/facebook.svg" alt="logo facebook"/>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="assets/images/twitter.png" alt="logo twitter"/>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="assets/images/instagram.svg" alt="logo instagram"/>
-            </a>
-          </li>
+    <!-- Boissons -->
+    <section class="section-food-type">
+      <h2>Boissons </h2>
+      <article class="container-food-type">
+        <div class="container-food-type__element-part">
+          <h3 class="element">Bouteille D'Eau Minérale ou Gazeuse </h3>
+          <p class="element__desc">50cl <span>- 3€</span></p>
+          <p class="element__desc">75cl <span>- 5€</span></p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Soft 33cl <span>- 3,5€</span></h3>
+          <p class="element__desc">(Coca, Coca Zéro, Orangina, Schweppes Agrumes, Ice Tea, San Pellegrino Citron, San
+            Pellegrino Orange).</p>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Red Bull 25cl <span>- 4€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Jus Variés 25cl <span>- 3,5€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Cocktail Sans Alcool <span>- 6,50€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Café Espresso <span>- 2,50€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Café Crème <span>- 4,5€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Cappuccino <span>- 4,5€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Thé Variés <span>- 4,5€</span></h3>
+        </div>
+        <div class="container-food-type__element-part">
+          <h3 class="element">Chocolat Chaud <span>- 4,5€</span></h3>
+        </div>
+      </article>
+    </section>
+   <!-- Boissons -->
+
+   <!-- Menu Bambino -->
+   <section class="section-food-type">
+      <h2>Menu Bambino <span>- 9,50€</span></h2>
+      <article class="container-food-type">
+          <div class="container-food-type__element-part">
+            <h3 class="element">Pizza Margherita ou 3 Fromages</h3>
+            <h3 class="element"> + Soft 33cl </h3>
+            <h3 class="element">+ Mini Cannolo ou Boule De Glace </h3>            
+          </div>
+          </article>
+    </section>
+
+  </main>
+  <!-- main -->
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="footer__address">
+      <h2 class="footer__h2">Adresse</h2>
+      <p>146 rue du Faubourg Saint-Antoine</p>
+      <p>75012 PARIS</p>
+      <a href="tel:+33143473035">01.43.47.30.35</a>
+      <a href="mailto:pizzeria@losfizio.fr">pizzeria@losfizio.fr</a>
+
+      <ul class="footer__address-social">
+        <li>
+          <a href="">
+            <img src="assets/images/facebook.svg" alt="logo facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/images/twitter.png" alt="logo twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="assets/images/instagram.svg" alt="logo instagram" />
+          </a>
+        </li>
+      </ul>
+
+      <ul class="legals">
+        <a href="https://icons8.com/icon/118500/facebook-nouveau">icon by Icons8</a>
+      </ul>
+    </div>
+
+    <div class="footer__schedule">
+      <h2 class="footer__h2">Horaires</h2>
+      <section class="footer__schedule__days">
+        <ul>
+          <h3>Aujourd'hui</h3>
+          <p class="footer-actual-day__opening">Ouvert / fermé</p>
         </ul>
-
-        <ul class="legals">
-          <a href="https://icons8.com/icon/118500/facebook-nouveau">icon by Icons8</a>
+        <ul>
+          <h3>Demain</h3>
+          <p class="footer-tomorrow-day__opening">Ouvert / fermé</p>
         </ul>
-      </div>
+      </section>
+    </div>
 
-      <div class="footer__schedule">
-        <h2 class="footer__h2">Horaires</h2>
-        <section class="footer__schedule__days">
-          <ul>
-            <h3>Aujourd'hui</h3>
-            <p class="footer-actual-day__opening">Ouvert / fermé</p>
-          </ul>
-          <ul>
-            <h3>Demain</h3>
-            <p class="footer-tomorrow-day__opening">Ouvert / fermé</p>
-          </ul>
-        </section>
-      </div>
+    <div class="footer__newsletter">
+      <h2 class="footer__h2">Newsletter</h2>
+      <form id="newsletter" class="input-field">
+        <i class="material-icons prefix">alternate_email</i>
+        <input id="autocomplete-input" class="autocomplete validate" type="email"
+          pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        <label for="autocomplete-input">Votre email</label>
+      </form>
+      <p>En vous inscrivant à notre newsletter vous acceptez de recevoir des communications et offres marketing
+        personnalisées par mail de notre part.</p>
+      <button class="waves-effect" type="submit" form="newsletter">S'inscrire</button>
+    </div>
 
-      <div class="footer__newsletter">
-        <h2 class="footer__h2">Newsletter</h2>
-        <form id="newsletter" class="input-field">
-          <i class="material-icons prefix">alternate_email</i>
-          <input id="autocomplete-input" class="autocomplete validate" type="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-          <label for="autocomplete-input">Votre email</label>
-        </form>
-        <p>En vous inscrivant à notre newsletter vous acceptez de recevoir des communications et offres marketing personnalisées par mail de notre part.</p>
-        <button class="waves-effect" type="submit" form="newsletter">S'inscrire</button>
-      </div>
+    <!-- <p class="copyright">Copyright LoSfizio</p> -->
 
-      <!-- <p class="copyright">Copyright LoSfizio</p> -->
+  </footer>
+  <!--FOOTER-->
 
-    </footer>
-    <!--FOOTER-->
+  <script type="text/javascript" src="assets/js/materialize.js"></script>
+  <script type="module" src="assets/js/index.js"></script>
+  <script charset="utf-8">
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
 
-    <script type="text/javascript" src="assets/js/materialize.js"></script>
-    <script type="module" src="assets/js/index.js"></script>
-    <script charset="utf-8">
-      $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-    </script>
-
-  </body>
+</body>
 
 </html>
