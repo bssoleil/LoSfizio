@@ -8350,8 +8350,7 @@ img {
   filter: brightness(40%);
   z-index: -1;
 }
-
-.h1__banner {
+.header__banner .h1__banner {
   font-size: 5rem;
   padding-top: 30vh;
   margin: auto;
@@ -8360,30 +8359,28 @@ img {
   border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
 }
 @media screen and (max-width: 1024px) {
-  .h1__banner {
+  .header__banner .h1__banner {
     width: 90%;
   }
 }
-
-.p__banner {
+.header__banner .p__banner {
   margin: auto;
   padding-top: 2rem;
   font-size: 1.7rem;
   color: rgba(255, 255, 255, 0.7);
 }
-
-.button__banner {
+.header__banner .button__banner {
   border: 1px solid #ffffff;
   margin-top: 10vw;
   width: 30vw;
   color: white;
 }
 @media screen and (max-width: 1024px) {
-  .button__banner {
+  .header__banner .button__banner {
     width: 70%;
   }
 }
-.button__banner:hover {
+.header__banner .button__banner:hover {
   background-color: transparent;
   box-shadow: 0.5rem 0.5rem 10rem black;
   background-color: rgba(74, 5, 21, 0.5);
